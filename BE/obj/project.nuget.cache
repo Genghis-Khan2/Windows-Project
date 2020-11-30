@@ -1,11 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "Pov5YOnubXzv+JpaWp8orw8W+vgRkmoEMfQ6oAcyNBkPusXCjR5kjm0npWMplsJKN+lQE3lDT0Sd+xrFFXXtgg==",
-  "success": true,
-  "projectFilePath": "D:\\קורסים\\יג\\סמסטר א\\הנדסת חלונות\\Marcating\\BE\\BE.csproj",
+  "dgSpecHash": "mKs8uH1EjvM+Rt38oTQA6ujPgj8br0lmC3fQoSvOS54Ptli0+GByHzXGCyLKN+fNEQWvTSCLxkxqa4j5tcAscw==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\eitha\\Documents\\מכון לב\\הנדסת מערכת חלונים\\Windows-Project\\BE\\BE.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Gabi Komet\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\Gabi Komet\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\eitha\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\eitha\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project DAL is not compatible with netstandard2.0 (.NETStandard,Version=v2.0). Project DAL supports: netcoreapp3.1 (.NETCoreApp,Version=v3.1)",
+      "libraryId": "DAL",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    }
+  ]
 }
