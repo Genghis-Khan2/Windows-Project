@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Pov5YOnubXzv+JpaWp8orw8W+vgRkmoEMfQ6oAcyNBkPusXCjR5kjm0npWMplsJKN+lQE3lDT0Sd+xrFFXXtgg==",
+  "dgSpecHash": "4Y81GfzVGqyKz9/ZBGefsk8DU9D7/blE/ymajd/CKdE4wpEmj/DSduK61MU9uqpelatM/EWC59IvxcqNSrZyTQ==",
   "success": true,
-  "projectFilePath": "D:\\קורסים\\יג\\סמסטר א\\הנדסת חלונות\\Marcating\\BE\\BE.csproj",
+  "projectFilePath": "C:\\Users\\eitha\\Documents\\מכון לב\\הנדסת מערכת חלונים\\Windows-Project\\BE\\BE.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Gabi Komet\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\Gabi Komet\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\eitha\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\eitha\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }
