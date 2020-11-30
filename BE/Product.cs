@@ -20,15 +20,4 @@ namespace BE
 
         public int Price { get; set ; }
     }
-    public class Store
-    {
-        
-    }
-    public class Costumer
-    {
-        string name;
-        string password;
-        public string Name { get; set; }
-        public string Password { get ; set; }      
-    }
 }
