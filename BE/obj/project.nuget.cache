@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Pov5YOnubXzv+JpaWp8orw8W+vgRkmoEMfQ6oAcyNBkPusXCjR5kjm0npWMplsJKN+lQE3lDT0Sd+xrFFXXtgg==",
+  "success": true,
+  "projectFilePath": "D:\\קורסים\\יג\\סמסטר א\\הנדסת חלונות\\Marcating\\BE\\BE.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Gabi Komet\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Gabi Komet\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
