@@ -180,25 +180,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Gabi Komet\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\eitha\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\קורסים\\יג\\סמסטר א\\הנדסת חלונות\\Marcating\\BE\\BE.csproj",
+      "projectUniqueName": "C:\\Users\\eitha\\Documents\\מכון לב\\הנדסת מערכת חלונים\\Windows-Project\\BE\\BE.csproj",
       "projectName": "BE",
-      "projectPath": "D:\\קורסים\\יג\\סמסטר א\\הנדסת חלונות\\Marcating\\BE\\BE.csproj",
-      "packagesPath": "C:\\Users\\Gabi Komet\\.nuget\\packages\\",
-      "outputPath": "D:\\קורסים\\יג\\סמסטר א\\הנדסת חלונות\\Marcating\\BE\\obj\\",
+      "projectPath": "C:\\Users\\eitha\\Documents\\מכון לב\\הנדסת מערכת חלונים\\Windows-Project\\BE\\BE.csproj",
+      "packagesPath": "C:\\Users\\eitha\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\eitha\\Documents\\מכון לב\\הנדסת מערכת חלונים\\Windows-Project\\BE\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Gabi Komet\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\eitha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
@@ -238,7 +233,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

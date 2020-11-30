@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\eitha\\Documents\\מכון לב\\הנדסת מערכת חלונים\\Windows-Project\\DAL\\DAL.csproj",
-      "projectName": "DAL",
-      "projectPath": "C:\\Users\\eitha\\Documents\\מכון לב\\הנדסת מערכת חלונים\\Windows-Project\\DAL\\DAL.csproj",
+      "projectUniqueName": "C:\\Users\\eitha\\Documents\\מכון לב\\הנדסת מערכת חלונים\\Windows-Project\\BL\\BL.csproj",
+      "projectName": "BL",
+      "projectPath": "C:\\Users\\eitha\\Documents\\מכון לב\\הנדסת מערכת חלונים\\Windows-Project\\BL\\BL.csproj",
       "packagesPath": "C:\\Users\\eitha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\eitha\\Documents\\מכון לב\\הנדסת מערכת חלונים\\Windows-Project\\DAL\\obj\\",
+      "outputPath": "C:\\Users\\eitha\\Documents\\מכון לב\\הנדסת מערכת חלונים\\Windows-Project\\BL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\eitha\\AppData\\Roaming\\NuGet\\NuGet.Config",
