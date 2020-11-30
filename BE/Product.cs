@@ -16,7 +16,7 @@ namespace BE
 
         public Enums.Category Category  { get; set; }
 
-        public Store Store { get; set; }  
+        public Store Store { get; set; }
 
         public int Price { get; set ; }
     }
