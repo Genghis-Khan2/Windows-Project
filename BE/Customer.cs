@@ -4,7 +4,7 @@ using System.Text;
 
 namespace BE
 {
-    public class Costumer
+    public class Customer
     {
         string name;
         string password;
