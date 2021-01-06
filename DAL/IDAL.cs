@@ -7,14 +7,12 @@ namespace DAL
 {
     public interface IDAL
     {
-        public static void AddProduct(Product prod) { }
-        public static void AddCustomer(Customer cust) { }
+        public void AddProduct(Product prod);
+        public void AddCustomer(Customer cust);
 
-        public static void AddStore(Store store) { }
+        public void AddStore(Store store);
 
-        public static string getValue()
-        {
-            return "dal send this value";
-        }
+        public string getValue();
+        
     }
 }

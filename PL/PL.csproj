@@ -96,11 +96,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BE\BE.csproj">
-      <Project>{13a4f74b-110f-4457-b623-d741219cd0b9}</Project>
+      <Project>{994bb440-6bdb-49b8-89c4-67e210b00a94}</Project>
       <Name>BE</Name>
     </ProjectReference>
     <ProjectReference Include="..\BL\BL.csproj">
-      <Project>{075ad440-5ef1-4290-8364-e60bad545a65}</Project>
+      <Project>{00fb3f03-75fe-4acb-8a12-6718a910b9d4}</Project>
       <Name>BL</Name>
     </ProjectReference>
   </ItemGroup>

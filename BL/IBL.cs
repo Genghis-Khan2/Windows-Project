@@ -7,10 +7,8 @@ namespace BL
 {
     public interface IBL
     {
-       
-        public static string getResult()
-        {
-            return "result is:" + IDAL.getValue();
-        }
+
+        public string getResult();
+        
     }
 }

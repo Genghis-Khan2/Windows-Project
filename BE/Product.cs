@@ -1,17 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
-using System.Drawing;
+using System.Threading.Tasks;
 
 namespace BE
 {
-
     public class Product
     {
-        public Enums.Category Category  { get; set; }
-
-        public Store Store { get; set; }
-
-        public int Price { get; set ; }
     }
 }

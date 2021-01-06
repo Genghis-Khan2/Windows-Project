@@ -21,5 +21,9 @@ namespace DAL
         {
             throw new NotImplementedException();
         }
-    }
+        public string getValue()
+        {
+            return "dal send this value";
+        }
+}
 }
