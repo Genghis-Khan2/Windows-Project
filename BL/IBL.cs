@@ -7,7 +7,6 @@ namespace BL
 {
     public interface IBL
     {
-
         public string getResult();
         
     }

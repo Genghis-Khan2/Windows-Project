@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FactoryDal.cs" />
     <Compile Include="IDAL.cs" />
     <Compile Include="JSONDAL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
