@@ -1,18 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dTnRqdg1XuGkz9zxmper2+UcnArfobJnYfIvtw2G1ztegiuLwsEQaG+rtTB67/MPeEu6vYWDTpO86XgG3hs22w==",
-  "success": false,
+  "dgSpecHash": "Hg8WJyagiYMrtTo/3eh5KZkM6ys48/Z3m/yBNfJUmda+B5psLaWMt8IR5BrTUltetqxekKWg1ayiDVLMjmofUg==",
+  "success": true,
   "projectFilePath": "C:\\Users\\eitha\\Documents\\מכון לב\\הנדסת מערכת חלונים\\Windows-Project\\DAL\\DAL.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "NU1108",
-      "level": "Error",
-      "message": "Cycle detected. \r\n  DAL -> BE -> DAL.",
-      "libraryId": "DAL",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    }
-  ]
+  "logs": []
 }
