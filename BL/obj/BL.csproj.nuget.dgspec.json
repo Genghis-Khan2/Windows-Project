@@ -144,7 +144,11 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\eitha\\Documents\\מכון לב\\הנדסת מערכת חלונים\\Windows-Project\\BE\\BE.csproj": {
+                "projectPath": "C:\\Users\\eitha\\Documents\\מכון לב\\הנדסת מערכת חלונים\\Windows-Project\\BE\\BE.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

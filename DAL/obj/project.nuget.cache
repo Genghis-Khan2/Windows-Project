@@ -1,8 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "qiFEKTaUy71CYN4AVJhy5A4FBF+uUMUAj22aDkbe+Emg/E0MomhnhWr8LdhMNxePbLrW5qouYN1Klm5aeohppQ==",
-  "success": true,
-  "projectFilePath": "D:\\קורסים\\יג\\סמסטר א\\הנדסת חלונות\\Marcating\\DAL\\DAL.csproj",
+  "dgSpecHash": "dTnRqdg1XuGkz9zxmper2+UcnArfobJnYfIvtw2G1ztegiuLwsEQaG+rtTB67/MPeEu6vYWDTpO86XgG3hs22w==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\eitha\\Documents\\מכון לב\\הנדסת מערכת חלונים\\Windows-Project\\DAL\\DAL.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1108",
+      "level": "Error",
+      "message": "Cycle detected. \r\n  DAL -> BE -> DAL.",
+      "libraryId": "DAL",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }
