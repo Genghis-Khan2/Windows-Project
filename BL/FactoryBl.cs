@@ -14,8 +14,8 @@ namespace BL
         protected static IBL instance = null;
         public static IBL GetInstance()
         {
-            //if (instance == null)
-            //    instance = new JSONDAL();
+            if (instance == null)
+                instance = new BL_IMP();
             return instance;
         }
     }

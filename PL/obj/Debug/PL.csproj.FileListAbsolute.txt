@@ -18,3 +18,6 @@ C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Window
 C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\obj\Debug\PL.pdb
 C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\bin\Debug\BL.dll
 C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\bin\Debug\BL.pdb
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\bin\Debug\DAL.dll
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\bin\Debug\DAL.pdb
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\obj\Debug\Styles.baml

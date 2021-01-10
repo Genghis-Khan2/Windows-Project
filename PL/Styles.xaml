@@ -1,0 +1,237 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:PL" xmlns:System="clr-namespace:System;assembly=mscorlib">
+    <!--<local:DiaryConverter x:Key="DiaryConverter"/>
+    <local:YesNoConverter x:Key="YesNoConverter"/>
+    <local:DateConverter x:Key="DateConverter"/>
+    <local:OrederStatusConverter x:Key="OrederStatusConverter"/>
+    <local:StatusConverter x:Key="StatusConverter"/>-->
+
+    <!--#region text-->
+    <System:String x:Key="UpdateHostingUnit">Update hosting unit</System:String>
+    <System:String x:Key="RemoveOrder">Remove Order</System:String>
+    <System:String x:Key="ShowOrders">Show Orders</System:String>
+    <System:String x:Key="CreateHostingUnit">Create hosting unit</System:String>
+    <System:String x:Key="AddOrder">Add Order</System:String>
+    <System:String x:Key="DeleteHostingUnit">Delete Hosting Unit</System:String>
+    <System:String x:Key="ShowHostingUnits">Show Hosting Units</System:String>
+    <System:String x:Key="Back">Back</System:String>
+    <System:String x:Key="ChangeDetails">Change Details</System:String>
+    <!--#endregion-->
+
+    <RadialGradientBrush x:Key="HostButtonBrush">
+        <GradientStop Color="#FF0575FB" Offset="0"/>
+        <GradientStop Color="#FF2E3946" Offset="1"/>
+    </RadialGradientBrush>
+
+    <Binding x:Key="TextBoxBind">
+        <Binding.Mode>TwoWay</Binding.Mode>
+        <Binding.NotifyOnValidationError>true</Binding.NotifyOnValidationError>
+        <Binding.ValidatesOnExceptions>true</Binding.ValidatesOnExceptions>
+    </Binding>
+
+    <Style x:Key="HostButtonBrushStyle" TargetType="Button">
+        <Setter Property="HorizontalAlignment" Value="Left"/>
+        <Setter Property="VerticalAlignment" Value="Top"/>
+        <Setter Property="Width" Value="250"/>
+        <Setter Property="Height" Value="100"/>
+        <Setter Property="FontFamily" Value="Showcard Gothic"/>
+        <Setter Property="FontSize" Value="22"/>
+    </Style>
+
+    <Style x:Key="TextBoxStyle" TargetType="TextBox">
+        <Setter Property="HorizontalAlignment" Value="Stretch"/>
+        <Setter Property="VerticalAlignment" Value="Top"/>
+        <Setter Property="Width" Value="250"/>
+        <Setter Property="Height" Value="100"/>
+        <Setter Property="FontFamily" Value="Showcard Gothic"/>
+        <Setter Property="FontSize" Value="22"/>
+    </Style>
+
+    <!--#region red triggers -->
+    <Style TargetType="TextBox" x:Key="TextBoxTriggers">
+        <Style.Triggers>
+            <Trigger Property="Text" Value="">
+                <Setter Property="BorderBrush" Value="Red"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+    <Style TargetType="ComboBox" x:Key="ComboBoxTriggers">
+        <Setter Property="Text" Value="Select"/>
+        <Style.Triggers>
+            <Trigger Property="Text" Value="">
+                <Setter Property="BorderBrush" Value="Red"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+    <Style TargetType="DatePicker" x:Key="DatePickerTriggers">
+        <Style.Triggers>
+            <Trigger Property="Text" Value="">
+                <Setter Property="BorderBrush" Value="Red"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+    <Style x:Key="DetailsTextBox" TargetType="TextBox" BasedOn="{StaticResource DetailsBox}">
+        <Style.Triggers>
+            <Trigger Property="Text" Value="">
+                <Setter Property="BorderBrush" Value="Red"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+    <Style x:Key="DetailsComboBox" TargetType="ComboBox" BasedOn="{StaticResource DetailsBox}">
+        <Setter Property="IsEditable" Value="True"/>
+        <Setter Property="SelectedValue" Value="{x:Null}"/>
+        <Style.Triggers>
+            <Trigger Property ="SelectedValue" Value="{x:Null}">
+                <Setter Property="BorderBrush" Value="Red"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+    <Style x:Key="DetailsDatePicker" TargetType="DatePicker" BasedOn="{StaticResource DetailsBox}">
+        <Style.Triggers>
+            <Trigger Property="Text" Value="">
+                <Setter Property="BorderBrush" Value="Red"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+    <Style x:Key="DetailsPassword" TargetType="PasswordBox" BasedOn="{StaticResource DetailsBox}">
+        <Setter Property="PasswordChar" Value="#"/>
+        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+        <Style.Triggers>
+            <DataTrigger Binding="{Binding Path=Password}" Value="{x:Null}">
+                <Setter Property="BorderBrush" Value="Red" />
+            </DataTrigger>
+            <Trigger Property="Grid.Column" Value="1">
+                <Setter Property="HorizontalAlignment" Value="Left"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+    <!--#endregion-->
+    
+
+    <Style x:Key="DetailsBox" TargetType="Control">
+        <Setter Property="Margin" Value="3"/>
+        <Setter Property="VerticalAlignment" Value="Stretch"/>
+        <Setter Property="HorizontalAlignment" Value="Left"/>
+        <Setter Property="Width" Value="150"/>
+        <Setter Property="Height" Value="25"/>
+        <Setter Property="Grid.Column" Value="1"/>
+    </Style>
+    <Style  TargetType="Label">
+        <Setter Property="Margin" Value="3"/>
+        <Setter Property="VerticalAlignment" Value="Stretch"/>
+        <Setter Property="Width" Value="175"/>
+        <Setter Property="Height" Value="27"/>
+        <Setter Property="FontFamily" Value="Ariel"/>
+        <Setter Property="FontSize" Value="15"/>
+        <Setter Property="HorizontalContentAlignment" Value="Left"/>
+        <Setter Property="Grid.Column" Value="0"/>
+    </Style>
+    <Style x:Key="TextOfDetailsBox" TargetType="TextBlock">
+        <Setter Property="Margin" Value="3"/>
+        <Setter Property="VerticalAlignment" Value="Stretch"/>
+        <Setter Property="Width" Value="auto"/>
+        <Setter Property="Height" Value="27"/>
+        <Setter Property="FontFamily" Value="Ariel"/>
+        <Setter Property="FontSize" Value="15"/>
+        <Setter Property="Grid.Column" Value="1"/>
+    </Style>
+    
+
+    <Style x:Key="Header" TargetType="Label">
+        <Setter Property="Margin" Value="10"/>
+        <Setter Property="Height" Value="auto"/>
+        <Setter Property="FontSize" Value="70"/>
+        <Setter Property="FontFamily" Value="Ariel"/>
+        <Setter Property="FontWeight" Value="Bold"/>
+        <Setter Property="VerticalContentAlignment" Value="Top"/>
+        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+    </Style>
+
+    <Style x:Key="Button" TargetType="Button">
+        <Setter Property="Margin" Value="60"/>
+        <Setter Property="FontSize" Value="45"/>
+        <Setter Property="FontStyle" Value="Italic"/>
+        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+    </Style>
+    <Style x:Key="ChooseKeyComboBox" TargetType="ComboBox">
+        <Setter Property="FontSize" Value="30"/>
+        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        <Setter Property="HorizontalAlignment" Value="Center"/>
+        <Setter Property="Width" Value="280"/>
+        <Setter Property="Height" Value="50"/>
+    </Style>
+    <Style x:Key="ChooseKeyLabel" TargetType="Label">
+        <Setter Property="FontSize" Value="30"/>
+        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        <Setter Property="HorizontalAlignment" Value="Center"/>
+        <Setter Property="Width" Value="170"/>
+        <Setter Property="Height" Value="50"/>
+        <Setter Property="Content" Value="Choose Key"/>
+    </Style>
+
+    <!--#region windows styles -->
+    <Style x:Key="Window" TargetType="Window">
+        <Setter Property="Background" Value="Olive"/>
+        <Setter Property="Height" Value="700"/>
+        <Setter Property="Width" Value="1050"/>
+    </Style>
+    <Style x:Key="ClientWindow" TargetType="Window" BasedOn="{StaticResource Window}">
+        <Setter Property="Height" Value="700"/>
+        <Setter Property="Width" Value="1050"/>
+        <Setter Property="Background" Value="YellowGreen"/>
+    </Style>
+    <Style x:Key="HostWindow" TargetType="Window" BasedOn="{StaticResource Window}">
+        <Setter Property="Height" Value="700"/>
+        <Setter Property="Width" Value="1050"/>
+        <Setter Property="Background" Value="LightBlue"/>
+    </Style>
+    <Style x:Key="SiteOwnerWindow" TargetType="Window" BasedOn="{StaticResource Window}">
+        <Setter Property="Height" Value="700"/>
+        <Setter Property="Width" Value="1050"/>
+        <Setter Property="Background" Value="LightSalmon"/>
+    </Style>
+    <!--#endregion-->
+    
+
+    <DataTemplate DataType="local:BankBranch" x:Key="BankBranchTemplate" >
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <TextBlock Grid.Column="0"
+                   Text="Bank Number: " />
+            <TextBlock Grid.Column="1"
+                   Text="{Binding Path=BankNumber}" />
+            <TextBlock Grid.Column="2"
+                   Text="Bank Name: " />
+            <TextBlock Grid.Column="3"
+                   Text="{Binding Path=BankName}" />
+            <TextBlock Grid.Column="4"
+                   Text="Branch Number: " />
+            <TextBlock Grid.Column="5"
+                   Text="{Binding Path=BranchNumber}" />
+            <TextBlock Grid.Column="6"
+                   Text="Branch Address: " />
+            <TextBlock Grid.Column="7"
+                   Text="{Binding Path=BranchAddress}" />
+            <TextBlock Grid.Column="8"
+                   Text="Branch City: " />
+            <TextBlock Grid.Column="9"
+                   Text="{Binding Path=BranchCity}" />
+        </Grid>
+    </DataTemplate>
+</ResourceDictionary>
