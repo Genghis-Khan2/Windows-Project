@@ -4,3 +4,9 @@ C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Window
 C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\BE\obj\Debug\BE.csproj.CoreCompileInputs.cache
 C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\BE\obj\Debug\BE.dll
 C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\BE\obj\Debug\BE.pdb
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\BE\bin\Debug\BE.dll
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\BE\bin\Debug\BE.pdb
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\BE\obj\Debug\BE.csprojAssemblyReference.cache
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\BE\obj\Debug\BE.csproj.CoreCompileInputs.cache
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\BE\obj\Debug\BE.dll
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\BE\obj\Debug\BE.pdb

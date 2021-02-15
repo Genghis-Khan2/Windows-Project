@@ -10,6 +10,5 @@ namespace BE
     {
         string password;
 
-        public string Password { get => password; set => password = value; }
     }
 }

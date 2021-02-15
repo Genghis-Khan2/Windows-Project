@@ -10,3 +10,15 @@ C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Window
 C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\BL\obj\Debug\BL.dll
 C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\BL\obj\Debug\BL.pdb
 C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\BL\bin\Debug\credentials.json
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\BL\bin\Debug\credentials.json
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\BL\bin\Debug\BL.dll
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\BL\bin\Debug\BL.pdb
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\BL\bin\Debug\BE.dll
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\BL\bin\Debug\DAL.dll
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\BL\bin\Debug\BE.pdb
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\BL\bin\Debug\DAL.pdb
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\BL\obj\Debug\BL.csprojAssemblyReference.cache
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\BL\obj\Debug\BL.csproj.CopyComplete
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\BL\obj\Debug\BL.dll
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\BL\obj\Debug\BL.pdb

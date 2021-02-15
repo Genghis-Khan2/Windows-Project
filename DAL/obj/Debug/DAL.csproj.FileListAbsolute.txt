@@ -8,3 +8,32 @@ C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Window
 C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\DAL\obj\Debug\DAL.dll
 C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\DAL\obj\Debug\DAL.pdb
 C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\DAL\bin\Debug\credentials.json
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\DAL\obj\Debug\DAL.dll
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\DAL\obj\Debug\DAL.pdb
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\DAL\bin\Debug\credentials.json
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\DAL\bin\Debug\DAL.dll.config
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\DAL\bin\Debug\DAL.dll
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\DAL\bin\Debug\DAL.pdb
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\DAL\bin\Debug\BE.dll
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\DAL\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\DAL\bin\Debug\System.Buffers.dll
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\DAL\bin\Debug\System.Memory.dll
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\DAL\bin\Debug\System.Numerics.Vectors.dll
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\DAL\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\DAL\bin\Debug\System.Text.Encodings.Web.dll
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\DAL\bin\Debug\System.Text.Json.dll
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\DAL\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\DAL\bin\Debug\System.ValueTuple.dll
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\DAL\bin\Debug\BE.pdb
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\DAL\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\DAL\bin\Debug\System.Buffers.xml
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\DAL\bin\Debug\System.Memory.xml
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\DAL\bin\Debug\System.Numerics.Vectors.xml
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\DAL\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\DAL\bin\Debug\System.Text.Encodings.Web.xml
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\DAL\bin\Debug\System.Text.Json.xml
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\DAL\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\DAL\bin\Debug\System.ValueTuple.xml
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\DAL\obj\Debug\DAL.csproj.CopyComplete
