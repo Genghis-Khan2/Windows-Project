@@ -1,0 +1,6 @@
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\BE\bin\Debug\BE.dll
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\BE\bin\Debug\BE.pdb
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\BE\obj\Debug\BE.csprojAssemblyReference.cache
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\BE\obj\Debug\BE.csproj.CoreCompileInputs.cache
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\BE\obj\Debug\BE.dll
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\BE\obj\Debug\BE.pdb
