@@ -7,7 +7,7 @@ namespace DAL
 {
     class JSONDAL : IDAL
     {
-        public void AddCustomer(Customer cust)
+        public void AddCustomer(User user)
         {
             throw new NotImplementedException();
         }

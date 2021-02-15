@@ -10,7 +10,6 @@ namespace BE
     {
         List<Product> products;
         DateTime date;
-        
         public List<Product> Products { get => products; set => products = value; }
         public DateTime Date { get => date; set => date = value; }
     }

@@ -10,7 +10,9 @@ namespace BE
     {
         string name;
         string password;
+        List<Order> orders;
         public string Name { get => name; set => name = value; }
         public string Password { get => password; set => password = value; }
+        internal List<Order> Orders { get => orders; set => orders = value; }
     }
 }
