@@ -7,3 +7,4 @@ C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Window
 C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\DAL\obj\Debug\DAL.csproj.CopyComplete
 C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\DAL\obj\Debug\DAL.dll
 C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\DAL\obj\Debug\DAL.pdb
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\DAL\bin\Debug\credentials.json
