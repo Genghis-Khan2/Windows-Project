@@ -21,7 +21,7 @@ namespace PL
     /// </summary>
     public partial class MainWindow : Window
     {
-        IBL BL = FactoryBl.GetInstance();
+        BL_IMP IBL = new BL_IMP();
         public MainWindow()
         {          
             InitializeComponent();
@@ -29,7 +29,7 @@ namespace PL
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
-            this.textBox.Text = BL.getResult();
+            this.textBox.Text = "hello";
 
         }
     }

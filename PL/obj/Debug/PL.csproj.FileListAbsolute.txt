@@ -87,3 +87,23 @@ D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\PL\ob
 D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\PL\obj\Debug\PL.csproj.CopyComplete
 D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\PL\obj\Debug\PL.exe
 D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\PL\obj\Debug\PL.pdb
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\bin\Debug\System.Text.Json.dll
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\bin\Debug\System.Memory.dll
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\bin\Debug\System.ValueTuple.dll
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\bin\Debug\System.Buffers.dll
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\bin\Debug\BL.dll.config
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\bin\Debug\DAL.dll.config
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\bin\Debug\System.Text.Json.xml
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\bin\Debug\System.Memory.xml
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\bin\Debug\System.ValueTuple.xml
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\bin\Debug\System.Buffers.xml
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml

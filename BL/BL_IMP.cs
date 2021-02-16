@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 using DAL;
 namespace BL
 {
-    class BL_IMP : IBL
+    public class BL_IMP 
     {
-        IDAL DAL = FactoryDal.GetInstance();
-        public string getResult()
-        {
-            return "hello, " + DAL.getValue();
-        }
+        DAL_IMP IDAL = new DAL_IMP();
+
+
+        
     }
 }

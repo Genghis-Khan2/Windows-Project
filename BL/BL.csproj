@@ -44,8 +44,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BL_IMP.cs" />
-    <Compile Include="FactoryBl.cs" />
-    <Compile Include="IBL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
