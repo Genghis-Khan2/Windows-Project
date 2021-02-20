@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BE
 {
-    class Order
+    public class Order
     {
         List<Product> products;
         DateTime date;

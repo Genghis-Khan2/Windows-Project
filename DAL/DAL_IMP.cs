@@ -18,8 +18,8 @@ namespace DAL
         {
             WriteIndented = true
         };
-        
-        List<User> GetUserList()
+
+        public static List<User> GetUserList()
         {
             using (StreamReader sr = new StreamReader(user_path))
             {
@@ -33,7 +33,7 @@ namespace DAL
             return new List<User>();
         }
 
-        List<Product> GetProductList()
+        public static List<Product> GetProductList()
         {
             using (StreamReader sr = new StreamReader(product_path))
             {
@@ -45,6 +45,11 @@ namespace DAL
             }
 
             return new List<Product>();
+        }
+
+        public static List<Order> GetOrderList()
+        {
+            return null;
         }
 
         void AddUser(User user)
