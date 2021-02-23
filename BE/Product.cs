@@ -16,6 +16,7 @@ namespace BE
         string name;
         double price;
         double weight;
+        string description;
         int id;
         Category cat;
         Image image;
@@ -27,6 +28,7 @@ namespace BE
         public Category Cat { get => cat; set => cat = value; }
         public Image Image { get => image; set => image = value; }
         public Image Qr_code { get => qr_code; set => qr_code = value; }
+        public string Description { get => description; set => description = value; }
 
         public static Product GetProductFromId(int id)
         {

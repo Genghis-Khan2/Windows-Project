@@ -10,12 +10,10 @@ namespace BL
     public partial class BL_IMP 
     {
         DAL_IMP IDAL = new DAL_IMP();
-
         //public static List<Order> GetOrders(User user)
         //{           
         //    return user.Orders;
         //}
-
 
         public static List<User> GetUsers()
         {
@@ -59,6 +57,7 @@ namespace BL
 
         public void AddUser(User user)
         {
+            //IDAL.AddUser(user);
             throw new NotImplementedException();
         }
         public void AddOrder(User user,Order order)
@@ -71,7 +70,16 @@ namespace BL
             throw new NotImplementedException();
         }
 
+        public bool RemoveUser(User user)
+        {
+            throw new NotImplementedException();
+        }
+        public bool RemoveOrder(User user, Order order)
+        {
+            throw new NotImplementedException();
+        }
 
+        // add update?
 
     }
 }

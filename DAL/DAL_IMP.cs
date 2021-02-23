@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Text.Json;
+
 using System.IO;
 using BE;
 
@@ -32,7 +33,6 @@ namespace DAL
 
             return new List<User>();
         }
-
         public static List<Product> GetProductList()
         {
             using (StreamReader sr = new StreamReader(product_path))
@@ -46,19 +46,19 @@ namespace DAL
 
             return new List<Product>();
         }
-
         public static List<Order> GetOrderList(User user)
         {
             return null;
         }
-
-        void AddUser(User user)
+        public void AddUser(User user)
         {
-            string json_string = JsonSerializer.Serialize(user, typeof(User), options);
+            int i = 0;
+            string json_string1 = JsonSerializer.Serialize(i, options);
+            string json_string = JsonSerializer.Serialize(user, options);
 
             using (StreamWriter sw = new StreamWriter(user_path))
             {
-               // sw.
+                sw.WriteLine(json_string);
             }
         }
     }

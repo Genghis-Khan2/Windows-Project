@@ -8,7 +8,27 @@ using BE;
 namespace BL
 {
     public partial class BL_IMP
-    {      
+    {    
+       const double MinimumSupportPct = 0.3;
+       const int MinimumItemLength = 2;
+        public List<Product> GetRecommendedList(User user, Predicate<Order> predicate)
+        {
+            List<Product> recommendedList = new List<Product>();
+            List<int[]> productsIdSets = GetProductsIdSets(user.Orders.FindAll(predicate));
+            List<int[]> productsIdSetsRec = GetFrequentItemSets(Configuration.GlobalProducts.Count,
+            productsIdSets, MinimumSupportPct, MinimumItemLength , GetLongestTransaction(productsIdSets));
+            foreach (var ProductsIdSet in productsIdSetsRec)
+            {
+                    for (int i = 0; i < ProductsIdSet.Length; i++)
+                    {
+                        //efi is a friend. he is a good boy.
+                        Product efi = Product.GetProductFromId(ProductsIdSet[i]);
+                        if (!recommendedList.Contains(efi))
+                        recommendedList.Add(efi);
+                    }
+            }
+            return recommendedList;
+        }
         public List<Product> GetProductFriends(Product product,User user)
         {            
             List<Product> friends = new List<Product>();
