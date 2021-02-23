@@ -33,6 +33,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -41,8 +42,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Configuration.cs" />
     <Compile Include="Manager.cs" />
-    <Compile Include="NoQRException.cs" />
+    <Compile Include="NoQRExceptoin.cs" />
     <Compile Include="Order.cs" />
     <Compile Include="User.cs" />
     <Compile Include="Product.cs" />

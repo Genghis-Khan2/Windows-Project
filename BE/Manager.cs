@@ -8,7 +8,6 @@ namespace BE
 {
     class Manager: User
     {
-        string password;
-
+        private string password;
     }
 }

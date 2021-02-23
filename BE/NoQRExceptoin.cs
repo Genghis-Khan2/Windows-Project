@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace BE
 {
-    public class NoQRException:Exception
-    {         
-      
+    public class NoQRExceptoin : Exception
+    {
+        public NoQRExceptoin(string message) : base(message)
+        { }
     }
 }

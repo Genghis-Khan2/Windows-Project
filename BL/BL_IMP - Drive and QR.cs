@@ -97,13 +97,13 @@ namespace BL
                 //File.Delete(photoAdress);
                 Result result = reader.Decode(barcodeBitmap);
                 if (result == null)
-                    throw new NoQRException();
+                    throw new NoQRExceptoin(@"the current picture has no QR code inside, please snap again");
                 string decoded = result.ToString().Trim();
                 resultId = int.Parse(decoded);
             }
-            catch (NoQRException e)
+            catch (NoQRExceptoin e)
             {
-                throw new Exception(@"the current picture has no QR code inside, please snap again");
+                throw e;
             }
             catch (Exception e)
             {

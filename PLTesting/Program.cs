@@ -12,6 +12,9 @@ namespace PLTesting
         {
             BL_IMP IBL = new BL_IMP();
 
+
+
+            /** drive and qr tests
             try
             {
                 //BL_IMP.CreateQRCode(7889);
@@ -32,7 +35,8 @@ namespace PLTesting
 
                 Console.WriteLine(e.Message);
             }
-            
+            **/
+
             Console.ReadKey();
         }
     }

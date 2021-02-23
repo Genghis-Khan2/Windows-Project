@@ -72,8 +72,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BL_IMP - Apriori.cs" />
     <Compile Include="BL_IMP - Drive and QR.cs" />
-    <Compile Include="BL_IMP.cs" />
+    <Compile Include="BL_IMP - Dal Getters.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -11,8 +11,8 @@ namespace DAL
 {
     public class DAL_IMP
     {
-        readonly string user_path = @".\Users";
-        readonly string product_path = @".\Products";
+        static string user_path = @".\Users";
+        static string product_path = @".\Products";
 
         JsonSerializerOptions options = new JsonSerializerOptions
         {
@@ -47,7 +47,7 @@ namespace DAL
             return new List<Product>();
         }
 
-        public static List<Order> GetOrderList()
+        public static List<Order> GetOrderList(User user)
         {
             return null;
         }
