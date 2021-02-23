@@ -111,3 +111,8 @@ C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Window
 C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\bin\Debug\credentialsDrive.json
 C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\bin\Debug\zxing.dll
 C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\bin\Debug\zxing.xml
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\PL\bin\Debug\credentialsDrive.json
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\PL\bin\Debug\zxing.dll
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\PL\bin\Debug\BL.dll.config
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\PL\bin\Debug\DAL.dll.config
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\PL\bin\Debug\zxing.xml

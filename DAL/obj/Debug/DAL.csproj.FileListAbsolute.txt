@@ -23,7 +23,6 @@ D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\DAL\b
 D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\DAL\bin\Debug\System.Numerics.Vectors.dll
 D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\DAL\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
 D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\DAL\bin\Debug\System.Text.Encodings.Web.dll
-D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\DAL\bin\Debug\System.Text.Json.dll
 D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\DAL\bin\Debug\System.Threading.Tasks.Extensions.dll
 D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\DAL\bin\Debug\System.ValueTuple.dll
 D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\DAL\bin\Debug\BE.pdb
@@ -33,7 +32,6 @@ D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\DAL\b
 D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\DAL\bin\Debug\System.Numerics.Vectors.xml
 D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\DAL\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\DAL\bin\Debug\System.Text.Encodings.Web.xml
-D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\DAL\bin\Debug\System.Text.Json.xml
 D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\DAL\bin\Debug\System.Threading.Tasks.Extensions.xml
 D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\DAL\bin\Debug\System.ValueTuple.xml
 D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\DAL\obj\Debug\DAL.csproj.CopyComplete
@@ -58,3 +56,5 @@ C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Window
 C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\DAL\bin\Debug\System.Text.Json.xml
 C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\DAL\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\DAL\bin\Debug\System.ValueTuple.xml
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\DAL\bin\Debug\Newtonsoft.Json.dll
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\DAL\bin\Debug\Newtonsoft.Json.xml

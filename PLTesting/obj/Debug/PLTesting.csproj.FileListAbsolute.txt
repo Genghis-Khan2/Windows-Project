@@ -48,3 +48,37 @@ C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Window
 C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PLTesting\obj\Debug\PLTesting.csproj.CopyComplete
 C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PLTesting\obj\Debug\PLTesting.exe
 C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PLTesting\obj\Debug\PLTesting.pdb
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\PLTesting\bin\Debug\credentials.json
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\PLTesting\bin\Debug\credentialsDrive.json
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\PLTesting\bin\Debug\PLTesting.exe.config
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\PLTesting\bin\Debug\PLTesting.exe
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\PLTesting\bin\Debug\PLTesting.pdb
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\PLTesting\bin\Debug\BE.dll
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\PLTesting\bin\Debug\BL.dll
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\PLTesting\bin\Debug\DAL.dll
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\PLTesting\bin\Debug\Google.Apis.Auth.dll
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\PLTesting\bin\Debug\Google.Apis.Drive.v3.dll
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\PLTesting\bin\Debug\zxing.dll
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\PLTesting\bin\Debug\Google.Apis.dll
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\PLTesting\bin\Debug\Google.Apis.Core.dll
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\PLTesting\bin\Debug\Newtonsoft.Json.dll
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\PLTesting\bin\Debug\BE.pdb
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\PLTesting\bin\Debug\BL.pdb
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\PLTesting\bin\Debug\BL.dll.config
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\PLTesting\bin\Debug\DAL.pdb
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\PLTesting\bin\Debug\DAL.dll.config
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\PLTesting\bin\Debug\Google.Apis.Auth.pdb
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\PLTesting\bin\Debug\Google.Apis.Auth.xml
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\PLTesting\bin\Debug\Google.Apis.Drive.v3.pdb
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\PLTesting\bin\Debug\Google.Apis.Drive.v3.xml
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\PLTesting\bin\Debug\zxing.xml
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\PLTesting\bin\Debug\Google.Apis.pdb
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\PLTesting\bin\Debug\Google.Apis.xml
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\PLTesting\bin\Debug\Google.Apis.Core.pdb
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\PLTesting\bin\Debug\Google.Apis.Core.xml
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\PLTesting\bin\Debug\Newtonsoft.Json.xml
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\PLTesting\obj\Debug\PLTesting.csprojAssemblyReference.cache
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\PLTesting\obj\Debug\PLTesting.csproj.CoreCompileInputs.cache
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\PLTesting\obj\Debug\PLTesting.csproj.CopyComplete
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\PLTesting\obj\Debug\PLTesting.exe
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\PLTesting\obj\Debug\PLTesting.pdb

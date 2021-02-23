@@ -63,3 +63,26 @@ C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Window
 C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\BL\bin\Debug\Newtonsoft.Json.xml
 C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\BL\bin\Debug\zxing.xml
 C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\BL\bin\Debug\zxing.presentation.xml
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\BL\bin\Debug\credentialsDrive.json
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\BL\bin\Debug\BL.dll.config
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\BL\bin\Debug\Google.Apis.Auth.dll
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\BL\bin\Debug\Google.Apis.Auth.PlatformServices.dll
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\BL\bin\Debug\Google.Apis.Core.dll
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\BL\bin\Debug\Google.Apis.dll
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\BL\bin\Debug\Google.Apis.Drive.v3.dll
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\BL\bin\Debug\Google.Apis.PlatformServices.dll
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\BL\bin\Debug\Newtonsoft.Json.dll
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\BL\bin\Debug\zxing.dll
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\BL\bin\Debug\zxing.presentation.dll
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\BL\bin\Debug\DAL.dll.config
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\BL\bin\Debug\Google.Apis.pdb
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\BL\bin\Debug\Google.Apis.xml
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\BL\bin\Debug\Google.Apis.Auth.pdb
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\BL\bin\Debug\Google.Apis.Auth.xml
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\BL\bin\Debug\Google.Apis.Core.pdb
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\BL\bin\Debug\Google.Apis.Core.xml
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\BL\bin\Debug\Google.Apis.Drive.v3.pdb
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\BL\bin\Debug\Google.Apis.Drive.v3.xml
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\BL\bin\Debug\Newtonsoft.Json.xml
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\BL\bin\Debug\zxing.xml
+D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\BL\bin\Debug\zxing.presentation.xml

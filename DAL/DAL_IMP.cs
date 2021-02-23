@@ -3,8 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Text.Json;
-
+using Newtonsoft.Json;
 using System.IO;
 using BE;
 
@@ -12,53 +11,46 @@ namespace DAL
 {
     public class DAL_IMP
     {
-        static string user_path = @".\Users";
-        static string product_path = @".\Products";
-
-        JsonSerializerOptions options = new JsonSerializerOptions
-        {
-            WriteIndented = true
-        };
+        static readonly string user_path = @".\Users";
+        static readonly string product_path = @".\Products";
 
         public static List<User> GetUserList()
         {
-            using (StreamReader sr = new StreamReader(user_path))
+            using (StreamReader file = File.OpenText(user_path))
             {
-                if (sr.Peek() != -1) // If the file is not empty
-                {
-                    List<User> user_list = (List<User>)JsonSerializer.Deserialize(sr.ReadToEnd(), typeof(List<User>));
-                    return user_list;
-                }
+                JsonSerializer serializer = new JsonSerializer();
+                return (List<User>)serializer.Deserialize(file, typeof(List<User>));
             }
-
-            return new List<User>();
         }
+
+        public static void AddUser(User user)
+        {
+            List<User> users = GetUserList();
+            users.Add(user);
+            using (StreamWriter file = File.CreateText(user_path))
+            {
+                JsonSerializer serializer = new JsonSerializer();
+                serializer.Serialize(file, users);
+            }
+        }
+
+        public static void RemoveUser(User user)
+        {
+            List<User> users = GetUserList();
+            users.Remove(user);
+            using (StreamWriter file = File.CreateText(user_path))
+            {
+                JsonSerializer serializer = new JsonSerializer();
+                serializer.Serialize(file, users);
+            }
+        }
+
         public static List<Product> GetProductList()
         {
-            using (StreamReader sr = new StreamReader(product_path))
+            using (StreamReader file = File.OpenText(user_path))
             {
-                if (sr.Peek() != -1) // If the file is not empty
-                {
-                    List<Product> product_list = (List<Product>)JsonSerializer.Deserialize(sr.ReadToEnd(), typeof(List<Product>));
-                    return product_list;
-                }
-            }
-
-            return new List<Product>();
-        }
-        public static List<Order> GetOrderList(User user)
-        {
-            return null;
-        }
-        public void AddUser(User user)
-        {
-            int i = 0;
-            string json_string1 = JsonSerializer.Serialize(i, options);
-            string json_string = JsonSerializer.Serialize(user, options);
-
-            using (StreamWriter sw = new StreamWriter(user_path))
-            {
-                sw.WriteLine(json_string);
+                JsonSerializer serializer = new JsonSerializer();
+                return (List<Product>)serializer.Deserialize(file, typeof(List<Product>));
             }
         }
     }

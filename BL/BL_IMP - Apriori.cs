@@ -293,8 +293,8 @@ namespace BL
             int multiplier = 1;
             for (int i = 0; i < data.Length; ++i) // actually working backward
             {
-                value = value + (data[i] * multiplier);
-                multiplier = multiplier * 10;
+                value += (data[i] * multiplier);
+                multiplier *= 10;
             }
             return value;
         }
