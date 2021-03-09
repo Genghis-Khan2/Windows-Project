@@ -8,29 +8,28 @@ using BE;
 namespace BL
 {
     public partial class BL_IMP
-    {    
-       const double MinimumSupportPct = 0.3;
-       const int MinimumItemLength = 2;
+    {
+        const double MinimumSupportPct = 0.3;
+        const int MinimumItemLength = 2;
         public List<Product> GetRecommendedList(User user, Predicate<Order> predicate)
         {
             List<Product> recommendedList = new List<Product>();
             List<int[]> productsIdSets = GetProductsIdSets(user.Orders.FindAll(predicate));
             List<int[]> productsIdSetsRec = GetFrequentItemSets(Configuration.GlobalProducts.Count,
-            productsIdSets, MinimumSupportPct, MinimumItemLength , GetLongestTransaction(productsIdSets));
+            productsIdSets, MinimumSupportPct, MinimumItemLength, GetLongestTransaction(productsIdSets));
             foreach (var ProductsIdSet in productsIdSetsRec)
             {
-                    for (int i = 0; i < ProductsIdSet.Length; i++)
-                    {
-                        //efi is a friend. he is a good boy.
-                        Product efi = Product.GetProductFromId(ProductsIdSet[i]);
-                        if (!recommendedList.Contains(efi))
-                        recommendedList.Add(efi);
-                    }
+                for (int i = 0; i < ProductsIdSet.Length; i++)
+                {
+                    //efi is a friend. he is a good boy.
+                    Product efi = Product.GetProductFromId(ProductsIdSet[i]);
+                    AddIfNotContain(recommendedList, efi);
+                }
             }
             return recommendedList;
         }
-        public List<Product> GetProductFriends(Product product,User user)
-        {            
+        public List<Product> GetProductFriends(Product product, User user)
+        {
             List<Product> friends = new List<Product>();
             List<int[]> productsIdSets = GetProductsIdSets(user.Orders);
             List<int[]> productsIdSetsRec = GetFrequentItemSets(Configuration.GlobalProducts.Count,
@@ -42,22 +41,25 @@ namespace BL
                     {
                         //efi is a friend. he is a good boy.
                         Product efi = Product.GetProductFromId(ProductsIdSet[i]);
-                        if (!friends.Contains(efi) && efi.Id != product.Id)
-                            friends.Add(efi);
+                        AddIfNotContain(friends, efi);
                     }
-            }           
+            }
+            friends.Remove(product);
             return friends;
         }
         private static List<int[]> GetProductsIdSets(List<Order> orders)
         {
             List<int[]> productsIdSets = new List<int[]>();
+            // add the orders products sets
             foreach (var order in orders)
             {
-                int[] productsIdSet = new int[order.Products.Count];
-                for (int i = 0; i < order.Products.Count; i++)
+                int[] orderSet = new int[order.ProductsIds.Count];
+                // copy the products ids
+                for (int i = 0; i < order.ProductsIds.Count; i++)
                 {
-                    productsIdSet[i] = order.Products[i].Id;
+                    orderSet[i] = order.ProductsIds[i];
                 }
+                productsIdSets.Add(orderSet);
             }
             return productsIdSets;
         }
@@ -175,13 +177,13 @@ namespace BL
         static int CountTimesInTransactions(ItemSet itemSet, List<int[]> transactions)
         {
             // number of times itemSet occurs in transactions
-            int ct = 0;
+            int count = 0;
             for (int i = 0; i < transactions.Count; ++i)
             {
                 if (itemSet.IsSubsetOf(transactions[i]) == true)
-                    ++ct;
+                    ++count;
             }
-            return ct;
+            return count;
         }
         private static int GetLongestTransaction(List<int[]> transactions)
         {

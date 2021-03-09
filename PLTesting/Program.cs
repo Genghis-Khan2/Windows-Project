@@ -12,9 +12,26 @@ namespace PLTesting
         static void Main(string[] args)
         {
             BL_IMP IBL = new BL_IMP();
+            const string  path= @"C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\Photos";
+            // IBL.CreateNewProduct("Banana", 0.5, 1, "fruit", Category.Food, null);
+            //User ozi = IBL.AddUser(new User("ozi", "123"));
+            //User yoni = IBL.AddUser(new User("yoni", "456"));
+            // IBL.AddOrder(ozi, new Order(new List<int>() { 1001 }, DateTime.MinValue));
+            // User ozi1 = IBL.GetUser(1001);
+            //IBL.CreateNewProduct("Banana", 0.5, 1, "fruit", Category.Food, path+ @"\Banana.JPG");
+            IBL.CreateNewProduct("Meat", 10, 1, "Non vegeterian", Category.Food);
+            //IBL.RemoveOrder(ozi,IBL.GetOrder(ozi,1003));
+            //IBL.AddOrder(ozi, new Order()
+            //{
+            //    Date = DateTime.MinValue,
 
-            IBL.AddUser(new User());
 
+            //});
+
+            //List <Product> products = IBL.GetAllProducts(ozi,(o)=>o.Date== DateTime.MinValue);
+
+            //IBL.CreateNewProduct("Banana",0.5,1,"fruit",Category.Food,null);
+            List<Product> products = IBL.GetGlobalProducts();
 
 
 

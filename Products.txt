@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 1006,
+    "Name": "Banana",
+    "Price": 0.5,
+    "Weight": 1.0,
+    "Cat": 0,
+    "Description": "fruit",
+    "Image_path": "C:\\Users\\eitha\\Documents\\מכון לב\\הנדסת מערכת חלונים\\Windows-Project\\Photos\\Banana.JPG",
+    "Qr_code_path": "C:\\Users\\eitha\\Documents\\מכון לב\\הנדסת מערכת חלונים\\Windows-Project\\QR Codes\\QR product 1006.jpeg",
+    "Available": false
+  },
+  {
+    "Id": 1007,
+    "Name": "Apple",
+    "Price": 0.9,
+    "Weight": 1.0,
+    "Cat": 0,
+    "Description": "fruit",
+    "Image_path": "C:\\Users\\eitha\\Documents\\מכון לב\\הנדסת מערכת חלונים\\Windows-Project\\Photos\\Apple.JPG",
+    "Qr_code_path": "C:\\Users\\eitha\\Documents\\מכון לב\\הנדסת מערכת חלונים\\Windows-Project\\QR Codes\\QR product 1007.jpeg",
+    "Available": false
+  },
+  {
+    "Id": 1008,
+    "Name": "Meat",
+    "Price": 10.0,
+    "Weight": 1.0,
+    "Cat": 0,
+    "Description": "Non vegeterian",
+    "Image_path": null,
+    "Qr_code_path": "C:\\Users\\eitha\\Documents\\מכון לב\\הנדסת מערכת חלונים\\Windows-Project\\QR Codes\\QR product 1008.jpeg",
+    "Available": false
+  },
+  {
+    "Id": 1009,
+    "Name": "orange",
+    "Price": 0.7,
+    "Weight": 1.0,
+    "Cat": 0,
+    "Description": "fruit",
+    "Image_path": "",
+    "Qr_code_path": "C:\\Users\\eitha\\Documents\\מכון לב\\הנדסת מערכת חלונים\\Windows-Project\\QR Codes\\QR product 1009.jpeg",
+    "Available": false
+  }
+]

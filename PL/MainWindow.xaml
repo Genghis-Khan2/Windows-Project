@@ -5,13 +5,67 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PL"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid Grid.Row="2" Grid.Column="2">
-        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="369,242,0,0" VerticalAlignment="Top" Width="75" Click="button_Click" />
-        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="auto" Margin="350,187,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        
+        Icon="market-icon.ico"
+        Title="" Height="{x:Static SystemParameters.MaximizedPrimaryScreenHeight }"
+      Width="{x:Static SystemParameters.MaximizedPrimaryScreenWidth}" WindowStartupLocation="CenterScreen"
+        WindowState="Maximized" ResizeMode="NoResize">
+    <!--WindowStyle="None"-->
+
+    <Window.Resources>
+        <local:StateMachineVisibilityConverter x:Key="StateMachineConverter" />
+    </Window.Resources>
+
+    <Grid >
+        <Grid x:Name="start" Grid.Row="3" Grid.Column="2"
+          Visibility="{Binding StateMachine.State, 
+                              Converter={StaticResource StateMachineConverter}, 
+                              ConverterParameter=Start}" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Grid.Background>
+                <SolidColorBrush Color="Yellow" Opacity="0.7" />
+            </Grid.Background>
+            <TextBlock Text="Welcome to the Marcating system"  Style="{DynamicResource Header}"/>
+            <Label x:Name="Name" Content="User name:" Grid.Row="1" Margin="474,150.333,640.333,133" Height="Auto"  />
+            <TextBox x:Name="insertName" HorizontalAlignment="Left" Grid.Row="1" FontSize="20"
+                 Margin="664,146.333,0,0" TextWrapping="Wrap" Text="{Binding Name}" VerticalAlignment="Top" Width="120" Height="39"/>
+            <Label x:Name="Password" Content="Password:" Grid.Row="1"  Margin="482,226.333,656.333,51" Height="Auto"  />
+            <PasswordBox x:Name="insertPassword" HorizontalAlignment="Left" Height="39" Grid.Row="1"
+                 Margin="664,231.333,0,0" Password="" VerticalAlignment="Top" Width="120" FontSize="20"/>
+            <Button x:Name="enterUserButton" Content="Enter as user" Grid.Row="2"
+                  Width="150" Command="{Binding UserEntryCommand}" Margin="574,79,565.333,55.667" />
+            <Button x:Name="enterManagerButton" Content="Enter as manager"  Grid.Row="2"
+                  Width="150" Command="{Binding ManagerEntryCommand}" Margin="898,81,241.333,53.667" />
+            <Button x:Name="newUserButton" Content="Create new user"  Grid.Row="2"
+                  Width="150" Command="{Binding CreateNewUserCommand}" Margin="294,79,845.333,55.667" />
+        </Grid>
+
+        <Grid x:Name="manager" Visibility="{Binding StateMachine.State, 
+                              Converter={StaticResource StateMachineConverter}, 
+                              ConverterParameter=Manager}" d:IsHidden="True">
+            <local:Manager_UserControl />
+        </Grid>
+
+        <Grid x:Name="user" Visibility="{Binding StateMachine.State, 
+                              Converter={StaticResource StateMachineConverter}, 
+                              ConverterParameter=User}" d:IsHidden="True">
+            <local:RegularUser_UserControl />
+        </Grid>
+
+        <Grid x:Name="newUser" Visibility="{Binding StateMachine.State, 
+                              Converter={StaticResource StateMachineConverter}, 
+                              ConverterParameter=NewUser}" d:IsHidden="True">
+            <local:NewUser_UserControl />
+        </Grid>
 
     </Grid>
+
+
+
 </Window>
 
     

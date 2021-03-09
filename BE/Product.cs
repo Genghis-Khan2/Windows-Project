@@ -17,27 +17,30 @@ namespace BE
         double price;
         double weight;
         string description;
-        int id;
+        int id= Configuration.ProductSerialKey;
         Category cat;
-        Image image;
-        Image qr_code;
+        string image_path = null;
+        string qr_code_path = null;
+        bool available = true;
+        public int Id { get => id; set => id = value; }
         public string Name { get => name; set => name = value; }
         public double Price { get => price; set => price = value; }
-        public double Weight { get => weight; set => weight = value; }
-        public int Id { get => id; set => id = value; }
+        public double Weight { get => weight; set => weight = value; }        
         public Category Cat { get => cat; set => cat = value; }
-        public Image Image { get => image; set => image = value; }
-        public Image Qr_code { get => qr_code; set => qr_code = value; }
         public string Description { get => description; set => description = value; }
+        public string Image_path { get => image_path; set => image_path = value; }
+        public string Qr_code_path { get => qr_code_path; set => qr_code_path = value; }
+        public bool Available { get => available; set => available = value; }
 
         public static Product GetProductFromId(int id)
+        {           
+            return Configuration.GlobalProducts.Find((p)=>p.Id==id);
+        }
+
+        public override bool Equals(object obj)
         {
-            foreach (Product prod in Configuration.GlobalProducts)
-            {
-                if (prod.Id == id)
-                    return prod;
-            }
-            return null;
+            return obj is Product product &&                   
+                   Id == product.Id;
         }
     }
 }

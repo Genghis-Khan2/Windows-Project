@@ -4,6 +4,26 @@
                     xmlns:System="clr-namespace:System;assembly=mscorlib"
                     >
 
+    <Style  TargetType="Label">
+        <Setter Property="FontFamily" Value="Ariel"/>
+        <Setter Property="FontSize" Value="30"/>
+        <Setter Property="Grid.Column" Value="0"/>
+        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+        <!--<Setter Property="MaxWidth" Value="200"/>
+        <Setter Property="Height" Value="200"/>-->
+    </Style>
+
+    
+
+    <Style x:Key="Header" TargetType="TextBlock">
+        <Setter Property="Margin" Value="10"/>
+        <Setter Property="TextAlignment" Value="Center"/>
+        <Setter Property="VerticalAlignment" Value="Bottom"/>
+        <Setter Property="FontSize" Value="70"/>
+        <Setter Property="FontFamily" Value="Ariel"/>
+        <Setter Property="FontWeight" Value="Bold"/>
+    </Style>
     <!--<local:DiaryConverter x:Key="DiaryConverter"/>
     <local:YesNoConverter x:Key="YesNoConverter"/>
     <local:DateConverter x:Key="DateConverter"/>
@@ -22,7 +42,7 @@
     <System:String x:Key="ChangeDetails">Change Details</System:String>
     <!--#endregion-->
 
-    <RadialGradientBrush x:Key="HostButtonBrush">
+    <!--<RadialGradientBrush x:Key="HostButtonBrush">
         <GradientStop Color="#FF0575FB" Offset="0"/>
         <GradientStop Color="#FF2E3946" Offset="1"/>
     </RadialGradientBrush>
@@ -32,6 +52,7 @@
         <Binding.NotifyOnValidationError>true</Binding.NotifyOnValidationError>
         <Binding.ValidatesOnExceptions>true</Binding.ValidatesOnExceptions>
     </Binding>
+    
 
     <Style x:Key="HostButtonBrushStyle" TargetType="Button">
         <Setter Property="HorizontalAlignment" Value="Left"/>
@@ -49,7 +70,7 @@
         <Setter Property="Height" Value="100"/>
         <Setter Property="FontFamily" Value="Showcard Gothic"/>
         <Setter Property="FontSize" Value="22"/>
-    </Style>
+    </Style>-->
 
     <!--#region red triggers -->
     <Style TargetType="TextBox" x:Key="TextBoxTriggers">
@@ -112,8 +133,9 @@
     </Style>
     <!--#endregion-->
     
+    
 
-    <Style x:Key="DetailsBox" TargetType="Control">
+    <!--<Style x:Key="DetailsBox" TargetType="Control">
         <Setter Property="Margin" Value="3"/>
         <Setter Property="VerticalAlignment" Value="Stretch"/>
         <Setter Property="HorizontalAlignment" Value="Left"/>
@@ -174,7 +196,7 @@
         <Setter Property="Content" Value="Choose Key"/>
     </Style>
 
-    <!--#region windows styles -->
+    --><!--#region windows styles --><!--
     <Style x:Key="Window" TargetType="Window">
         <Setter Property="Background" Value="Olive"/>
         <Setter Property="Height" Value="700"/>
@@ -195,7 +217,7 @@
         <Setter Property="Width" Value="1050"/>
         <Setter Property="Background" Value="LightSalmon"/>
     </Style>
-    <!--#endregion-->
+    --><!--#endregion-->
     
 
     <DataTemplate DataType="local:BankBranch" x:Key="BankBranchTemplate" >

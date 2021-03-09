@@ -21,16 +21,15 @@ namespace PL
     /// </summary>
     public partial class MainWindow : Window
     {
-        BL_IMP IBL = new BL_IMP();
+        public static ViewModel viewModel = new ViewModel();
         public MainWindow()
-        {          
-            InitializeComponent();
-        }
-
-        private void button_Click(object sender, RoutedEventArgs e)
         {
-            this.textBox.Text = "hello";
-
+            InitializeComponent();
+            viewModel.HarvestPassword += (sender, args) =>
+            args.Password = insertPassword.Password;
+            DataContext = viewModel;
         }
+
+              
     }
 }

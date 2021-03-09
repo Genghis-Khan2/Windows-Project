@@ -4,11 +4,9 @@ C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Window
 C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\bin\Debug\BE.dll
 C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\bin\Debug\BE.pdb
 C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\obj\Debug\PL.csprojAssemblyReference.cache
-C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\obj\Debug\MainWindow.g.cs
 C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\obj\Debug\App.g.cs
 C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\obj\Debug\PL_MarkupCompile.cache
 C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\obj\Debug\PL_MarkupCompile.lref
-C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\obj\Debug\MainWindow.baml
 C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\obj\Debug\PL.g.resources
 C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\obj\Debug\PL.Properties.Resources.resources
 C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\obj\Debug\PL.csproj.GenerateResource.cache
@@ -87,26 +85,8 @@ D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\PL\ob
 D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\PL\obj\Debug\PL.csproj.CopyComplete
 D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\PL\obj\Debug\PL.exe
 D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\PL\obj\Debug\PL.pdb
-C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\bin\Debug\System.Text.Json.dll
-C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\bin\Debug\System.Memory.dll
-C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\bin\Debug\System.ValueTuple.dll
-C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\bin\Debug\System.Text.Encodings.Web.dll
-C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\bin\Debug\System.Numerics.Vectors.dll
-C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\bin\Debug\System.Threading.Tasks.Extensions.dll
-C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\bin\Debug\System.Buffers.dll
-C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\bin\Debug\BL.dll.config
 C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\bin\Debug\DAL.dll.config
-C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\bin\Debug\System.Text.Json.xml
-C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\bin\Debug\System.Memory.xml
-C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\bin\Debug\System.ValueTuple.xml
-C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\bin\Debug\System.Text.Encodings.Web.xml
-C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\bin\Debug\System.Numerics.Vectors.xml
-C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\bin\Debug\System.Threading.Tasks.Extensions.xml
-C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
-C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\bin\Debug\System.Buffers.xml
-C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\bin\Debug\credentials.json
 C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\bin\Debug\credentialsDrive.json
 C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\bin\Debug\zxing.dll
@@ -116,3 +96,25 @@ D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\PL\bi
 D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\PL\bin\Debug\BL.dll.config
 D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\PL\bin\Debug\DAL.dll.config
 D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\PL\bin\Debug\zxing.xml
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\bin\Debug\Stateless.dll
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\bin\Debug\Stateless.xml
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\obj\Debug\MainWindow.g.cs
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\obj\Debug\MainWindow.baml
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\obj\Debug\Views\NewUser_UserControl.g.cs
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\obj\Debug\Views\NewUser_UserControl.baml
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\obj\Debug\Views\RegularUser_UserControl.g.cs
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\obj\Debug\Views\RegularUser_UserControl.baml
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\obj\Debug\Views\Manager_UserControl.g.cs
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\obj\Debug\Views\Manager_UserControl.baml
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\obj\Debug\App.baml
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\obj\Debug\UserControls\ProductCatalogUserControl .g.cs
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\obj\Debug\UserControls\ProductCatalogUserControl .baml
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\obj\Debug\UserControls\AddOrderUserControl.g.cs
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\obj\Debug\UserControls\AddOrderUserControl.baml
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\bin\Debug\EntityFramework.dll
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\bin\Debug\EntityFramework.xml
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\obj\Debug\AddProductUserControl.g.cs
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\obj\Debug\AddProductUserControl.baml

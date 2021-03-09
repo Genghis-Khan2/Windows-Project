@@ -28,7 +28,66 @@ namespace BL
         //static string[] Scopes = { DriveService.Scope.Drive };
         //static string ApplicationName = "does it matter";
 
-        static string  fpath = @"C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\BL\photos";
+        static string  fpath = @"C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\BL\Drive Photos";
+        public static int GetProductId(string QRCodeAdress)
+        {
+            int resultId = -1;
+            try
+            {
+                BarcodeReader<Bitmap> reader = new BarcodeReader
+                {
+                    AutoRotate = true,
+                    TryInverted = true,
+                    Options = new DecodingOptions { TryHarder = true }
+                };
+                Bitmap temp = new Bitmap(QRCodeAdress);
+                Bitmap barcodeBitmap = new Bitmap(temp);
+                temp.Dispose();
+                //File.SetAttributes(photoAdress, FileAttributes.Normal);
+                //File.Delete(photoAdress);
+                Result result = reader.Decode(barcodeBitmap);
+                if (result == null)
+                    throw new NoQRExceptoin(@"the current picture has no QR code inside, please snap again");
+                string decoded = result.ToString().Trim();
+                resultId = int.Parse(decoded);
+            }
+            catch (NoQRExceptoin e)
+            {
+                throw e;
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
+            return resultId;
+        }
+        public static string CreateQRCode(int id)
+        {
+            string path = Configuration.QRCode_file_path + @"\QR product " + id + ".jpeg";
+            if (File.Exists(path))
+                return path;
+            var myFile = File.Create(path);
+            BarcodeWriter writer = new ZXing.BarcodeWriter
+            {
+                Options = new QrCodeEncodingOptions
+                {
+                    DisableECI = true,
+                    CharacterSet = "UTF-8",
+                    Width = 100,
+                    Height = 100,
+                },
+                Format = ZXing.BarcodeFormat.QR_CODE
+            };
+            var result = new Bitmap(writer.Write(id.ToString()));
+            //PictureBox pictureBox = new PictureBox();
+            //pictureBox.Image = result;
+
+            result.Save(myFile, ImageFormat.Jpeg);
+            //pictureBox.Image.Save(myFile, ImageFormat.Jpeg);
+            myFile.Dispose();
+            myFile.Close();
+            return path;
+        }
         public static List<string> DownloadPhotosFromDrive()
         {           
             UserCredential credential = GetCredentials();
@@ -79,61 +138,8 @@ namespace BL
             return photosAdresses;
             //return null;
         }
-        public static int GetProductId(string photoAdress)
-        {
-            int resultId = -1;
-            try
-            {
-                BarcodeReader<Bitmap> reader = new BarcodeReader
-                {
-                    AutoRotate = true,
-                    TryInverted = true,
-                    Options = new DecodingOptions { TryHarder = true }
-                };
-                Bitmap temp = new Bitmap(photoAdress);
-                Bitmap barcodeBitmap = new Bitmap(temp);
-                temp.Dispose();
-                //File.SetAttributes(photoAdress, FileAttributes.Normal);
-                //File.Delete(photoAdress);
-                Result result = reader.Decode(barcodeBitmap);
-                if (result == null)
-                    throw new NoQRExceptoin(@"the current picture has no QR code inside, please snap again");
-                string decoded = result.ToString().Trim();
-                resultId = int.Parse(decoded);
-            }
-            catch (NoQRExceptoin e)
-            {
-                throw e;
-            }
-            catch (Exception e)
-            {
-                throw e;
-            }
-            return resultId;
-        }
-        public static PictureBox CreateQRCode(int id)
-        {
-            BarcodeWriter writer = new ZXing.BarcodeWriter
-            {
-                Options = new QrCodeEncodingOptions
-                {
-                    DisableECI = true,
-                    CharacterSet = "UTF-8",
-                    Width = 100,
-                    Height = 100,
-                },
-                Format = ZXing.BarcodeFormat.QR_CODE
-            };
-            var result = new Bitmap(writer.Write(id.ToString()));
-            PictureBox pictureBox = new PictureBox();
-            pictureBox.Image = result;
-            var myFile = File.Create(fpath + @"\QR product " + id + ".jpeg");
-            pictureBox.Image.Save(myFile, ImageFormat.Jpeg);
-            myFile.Dispose();
-            myFile.Close();
-            return pictureBox;
-        }
-        static UserCredential GetCredentials()
+       
+       private static UserCredential GetCredentials()
         {
             UserCredential credential;
 

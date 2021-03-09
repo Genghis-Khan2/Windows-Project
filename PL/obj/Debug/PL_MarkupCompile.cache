@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\PL\obj\Debug\
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\obj\Debug\
 PL
 none
 false
 DEBUG;TRACE
-D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\PL\App.xaml
-2794697904
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\PL\App.xaml
+8-645506580
 
-6-1263851643
-24-1397427924
-Styles.xaml;MainWindow.xaml;
+22321018641
+30823919272
+AddProductUserControl.xaml;UserControls\ProductCatalogUserControl .xaml;UserControls\AddOrderUserControl.xaml;Views\Manager_UserControl.xaml;Views\RegularUser_UserControl.xaml;Styles.xaml;MainWindow.xaml;Views\NewUser_UserControl.xaml;
 
 False
 

@@ -36,25 +36,7 @@ D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\DAL\b
 D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\DAL\bin\Debug\System.ValueTuple.xml
 D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\DAL\obj\Debug\DAL.csproj.CopyComplete
 C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\DAL\bin\Debug\DAL.dll.config
-C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\DAL\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\DAL\bin\Debug\Newtonsoft.Json.dll
-C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\DAL\bin\Debug\System.Buffers.dll
-C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\DAL\bin\Debug\System.Memory.dll
-C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\DAL\bin\Debug\System.Numerics.Vectors.dll
-C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\DAL\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
-C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\DAL\bin\Debug\System.Text.Encodings.Web.dll
-C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\DAL\bin\Debug\System.Text.Json.dll
-C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\DAL\bin\Debug\System.Threading.Tasks.Extensions.dll
-C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\DAL\bin\Debug\System.ValueTuple.dll
-C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\DAL\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
 C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\DAL\bin\Debug\Newtonsoft.Json.xml
-C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\DAL\bin\Debug\System.Buffers.xml
-C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\DAL\bin\Debug\System.Memory.xml
-C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\DAL\bin\Debug\System.Numerics.Vectors.xml
-C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\DAL\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
-C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\DAL\bin\Debug\System.Text.Encodings.Web.xml
-C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\DAL\bin\Debug\System.Text.Json.xml
-C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\DAL\bin\Debug\System.Threading.Tasks.Extensions.xml
-C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\DAL\bin\Debug\System.ValueTuple.xml
 D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\DAL\bin\Debug\Newtonsoft.Json.dll
 D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\DAL\bin\Debug\Newtonsoft.Json.xml
