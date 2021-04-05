@@ -24,16 +24,16 @@ namespace PL
 
         public bool CanExecute(object parameter)
         {
-            if (CurrentVM is ManagerVM)
-                return !(CurrentVM as ManagerVM).Products.Contains(parameter as Product);
+            if (CurrentVM is VM)
+                return !(CurrentVM as VM).Products.Contains(parameter as Product);
             return false;
         }
 
         public void Execute(object parameter)
         {
 
-            if (CurrentVM is ManagerVM)
-                (CurrentVM as ManagerVM).Products.Remove(parameter as Product);
+            if (CurrentVM is VM)
+                (CurrentVM as VM).Products.Remove(parameter as Product);
 
         }
 

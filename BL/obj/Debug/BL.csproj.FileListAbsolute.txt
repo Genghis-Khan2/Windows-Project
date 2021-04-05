@@ -68,3 +68,85 @@ D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\BL\bi
 D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\BL\bin\Debug\Newtonsoft.Json.xml
 D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\BL\bin\Debug\zxing.xml
 D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\BL\bin\Debug\zxing.presentation.xml
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\BL\bin\Debug\credentials.json
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\BL\bin\Debug\credentialsDrive.json
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\BL\bin\Debug\BL.dll.config
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\BL\bin\Debug\BL.dll
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\BL\bin\Debug\BL.pdb
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\BL\bin\Debug\BE.dll
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\BL\bin\Debug\DAL.dll
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\BL\bin\Debug\Google.Apis.Auth.dll
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\BL\bin\Debug\Google.Apis.Auth.PlatformServices.dll
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\BL\bin\Debug\Google.Apis.Core.dll
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\BL\bin\Debug\Google.Apis.dll
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\BL\bin\Debug\Google.Apis.Drive.v3.dll
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\BL\bin\Debug\Google.Apis.PlatformServices.dll
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\BL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\BL\bin\Debug\zxing.dll
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\BL\bin\Debug\zxing.presentation.dll
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\BL\bin\Debug\BE.pdb
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\BL\bin\Debug\DAL.pdb
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\BL\bin\Debug\DAL.dll.config
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\BL\bin\Debug\Google.Apis.pdb
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\BL\bin\Debug\Google.Apis.xml
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\BL\bin\Debug\Google.Apis.Auth.pdb
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\BL\bin\Debug\Google.Apis.Auth.xml
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\BL\bin\Debug\Google.Apis.Core.pdb
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\BL\bin\Debug\Google.Apis.Core.xml
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\BL\bin\Debug\Google.Apis.Drive.v3.pdb
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\BL\bin\Debug\Google.Apis.Drive.v3.xml
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\BL\bin\Debug\Newtonsoft.Json.xml
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\BL\bin\Debug\zxing.xml
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\BL\bin\Debug\zxing.presentation.xml
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\BL\obj\Debug\BL.csprojAssemblyReference.cache
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\BL\obj\Debug\BL.csproj.CopyComplete
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\BL\obj\Debug\BL.dll
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\BL\obj\Debug\BL.pdb
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\BL\bin\Debug\PdfSharp.Charting.dll
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\BL\bin\Debug\PdfSharp.dll
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\BL\bin\Debug\PdfSharp.xml
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\BL\bin\Debug\PdfSharp.Charting.xml
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\BL\bin\Debug\de\PdfSharp.resources.dll
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\BL\bin\Debug\de\PdfSharp.Charting.resources.dll
+C:\Users\eitha\Documents\מכון לב\sem a\הנדסת מערכת חלונים\WindowsProject\BL\bin\Debug\credentials.json
+C:\Users\eitha\Documents\מכון לב\sem a\הנדסת מערכת חלונים\WindowsProject\BL\bin\Debug\credentialsDrive.json
+C:\Users\eitha\Documents\מכון לב\sem a\הנדסת מערכת חלונים\WindowsProject\BL\bin\Debug\BL.dll.config
+C:\Users\eitha\Documents\מכון לב\sem a\הנדסת מערכת חלונים\WindowsProject\BL\bin\Debug\BL.dll
+C:\Users\eitha\Documents\מכון לב\sem a\הנדסת מערכת חלונים\WindowsProject\BL\bin\Debug\BL.pdb
+C:\Users\eitha\Documents\מכון לב\sem a\הנדסת מערכת חלונים\WindowsProject\BL\bin\Debug\BE.dll
+C:\Users\eitha\Documents\מכון לב\sem a\הנדסת מערכת חלונים\WindowsProject\BL\bin\Debug\DAL.dll
+C:\Users\eitha\Documents\מכון לב\sem a\הנדסת מערכת חלונים\WindowsProject\BL\bin\Debug\Google.Apis.Auth.dll
+C:\Users\eitha\Documents\מכון לב\sem a\הנדסת מערכת חלונים\WindowsProject\BL\bin\Debug\Google.Apis.Auth.PlatformServices.dll
+C:\Users\eitha\Documents\מכון לב\sem a\הנדסת מערכת חלונים\WindowsProject\BL\bin\Debug\Google.Apis.Core.dll
+C:\Users\eitha\Documents\מכון לב\sem a\הנדסת מערכת חלונים\WindowsProject\BL\bin\Debug\Google.Apis.dll
+C:\Users\eitha\Documents\מכון לב\sem a\הנדסת מערכת חלונים\WindowsProject\BL\bin\Debug\Google.Apis.Drive.v3.dll
+C:\Users\eitha\Documents\מכון לב\sem a\הנדסת מערכת חלונים\WindowsProject\BL\bin\Debug\Google.Apis.PlatformServices.dll
+C:\Users\eitha\Documents\מכון לב\sem a\הנדסת מערכת חלונים\WindowsProject\BL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\eitha\Documents\מכון לב\sem a\הנדסת מערכת חלונים\WindowsProject\BL\bin\Debug\PdfSharp.Charting.dll
+C:\Users\eitha\Documents\מכון לב\sem a\הנדסת מערכת חלונים\WindowsProject\BL\bin\Debug\PdfSharp.dll
+C:\Users\eitha\Documents\מכון לב\sem a\הנדסת מערכת חלונים\WindowsProject\BL\bin\Debug\zxing.dll
+C:\Users\eitha\Documents\מכון לב\sem a\הנדסת מערכת חלונים\WindowsProject\BL\bin\Debug\zxing.presentation.dll
+C:\Users\eitha\Documents\מכון לב\sem a\הנדסת מערכת חלונים\WindowsProject\BL\bin\Debug\BE.pdb
+C:\Users\eitha\Documents\מכון לב\sem a\הנדסת מערכת חלונים\WindowsProject\BL\bin\Debug\DAL.pdb
+C:\Users\eitha\Documents\מכון לב\sem a\הנדסת מערכת חלונים\WindowsProject\BL\bin\Debug\DAL.dll.config
+C:\Users\eitha\Documents\מכון לב\sem a\הנדסת מערכת חלונים\WindowsProject\BL\bin\Debug\Google.Apis.pdb
+C:\Users\eitha\Documents\מכון לב\sem a\הנדסת מערכת חלונים\WindowsProject\BL\bin\Debug\Google.Apis.xml
+C:\Users\eitha\Documents\מכון לב\sem a\הנדסת מערכת חלונים\WindowsProject\BL\bin\Debug\Google.Apis.Auth.pdb
+C:\Users\eitha\Documents\מכון לב\sem a\הנדסת מערכת חלונים\WindowsProject\BL\bin\Debug\Google.Apis.Auth.xml
+C:\Users\eitha\Documents\מכון לב\sem a\הנדסת מערכת חלונים\WindowsProject\BL\bin\Debug\Google.Apis.Core.pdb
+C:\Users\eitha\Documents\מכון לב\sem a\הנדסת מערכת חלונים\WindowsProject\BL\bin\Debug\Google.Apis.Core.xml
+C:\Users\eitha\Documents\מכון לב\sem a\הנדסת מערכת חלונים\WindowsProject\BL\bin\Debug\Google.Apis.Drive.v3.pdb
+C:\Users\eitha\Documents\מכון לב\sem a\הנדסת מערכת חלונים\WindowsProject\BL\bin\Debug\Google.Apis.Drive.v3.xml
+C:\Users\eitha\Documents\מכון לב\sem a\הנדסת מערכת חלונים\WindowsProject\BL\bin\Debug\Newtonsoft.Json.xml
+C:\Users\eitha\Documents\מכון לב\sem a\הנדסת מערכת חלונים\WindowsProject\BL\bin\Debug\PdfSharp.xml
+C:\Users\eitha\Documents\מכון לב\sem a\הנדסת מערכת חלונים\WindowsProject\BL\bin\Debug\PdfSharp.Charting.xml
+C:\Users\eitha\Documents\מכון לב\sem a\הנדסת מערכת חלונים\WindowsProject\BL\bin\Debug\zxing.xml
+C:\Users\eitha\Documents\מכון לב\sem a\הנדסת מערכת חלונים\WindowsProject\BL\bin\Debug\zxing.presentation.xml
+C:\Users\eitha\Documents\מכון לב\sem a\הנדסת מערכת חלונים\WindowsProject\BL\bin\Debug\de\PdfSharp.resources.dll
+C:\Users\eitha\Documents\מכון לב\sem a\הנדסת מערכת חלונים\WindowsProject\BL\bin\Debug\de\PdfSharp.Charting.resources.dll
+C:\Users\eitha\Documents\מכון לב\sem a\הנדסת מערכת חלונים\WindowsProject\BL\obj\Debug\BL.csprojAssemblyReference.cache
+C:\Users\eitha\Documents\מכון לב\sem a\הנדסת מערכת חלונים\WindowsProject\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+C:\Users\eitha\Documents\מכון לב\sem a\הנדסת מערכת חלונים\WindowsProject\BL\obj\Debug\BL.csproj.CopyComplete
+C:\Users\eitha\Documents\מכון לב\sem a\הנדסת מערכת חלונים\WindowsProject\BL\obj\Debug\BL.dll
+C:\Users\eitha\Documents\מכון לב\sem a\הנדסת מערכת חלונים\WindowsProject\BL\obj\Debug\BL.pdb

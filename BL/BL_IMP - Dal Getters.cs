@@ -18,7 +18,11 @@ namespace BL
 
         public Product CreateNewProduct(string name, double price,double weight,
         string description, Category cat, string image_path= null)
-        {           
+        {
+            if (image_path==null|| image_path == null)
+            {
+                image_path= @"C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\Photos\NotExist.PNG";
+            }
             Product product= new Product() { Name=name,Price=price,Weight=weight,
                 Description=description,Cat=cat,Image_path=image_path,
                 Available = true
@@ -45,7 +49,7 @@ namespace BL
         }
         public bool ConfirmManager(string UserName, string password)
         {
-            return password == /*"the manager password"*/ "1";
+            return password == /*"the manager password"*/ "password";
         }
         public List<User> GetUsers()
         {
@@ -142,7 +146,7 @@ namespace BL
 
         private static void AddIfNotContain<T>(List<T> list,T item)
         {
-            if (!list.Contains(item))
+            if (!list.Contains(item)&& item!=null)
                 list.Add(item);
         }
         private int AddId(object toAdd)

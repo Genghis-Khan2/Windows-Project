@@ -1,5 +1,7 @@
-﻿using System;
+﻿using BE;
+using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,18 +22,37 @@ namespace PL
     /// </summary>
     public partial class Manager_UserControl : UserControl
     {
-        ManagerVM managerVM;
+        VM vm;
         public Manager_UserControl()
         {
-            managerVM = new ManagerVM(MainWindow.viewModel);
-            InitializeComponent();           
-            DataContext = managerVM;
-
+            vm = MainWindow.vm;
+            InitializeComponent();            
+            DataContext = vm;
         }
 
-        private void UserControl_Loaded(object sender, RoutedEventArgs e)
+        private void Button_Click(object sender, RoutedEventArgs e)
         {
-
+            MessageBoxResult result = MessageBox.Show("are you sure you want to exit?", "exit",
+         MessageBoxButton.YesNo, MessageBoxImage.Warning, MessageBoxResult.Yes);
+            if (result != MessageBoxResult.Yes)
+                return;
+            MessageBox.Show("Goodbye!", "exit",
+         MessageBoxButton.OK, MessageBoxImage.Information);
+            System.Windows.Application.Current.Shutdown();
+        }
+        void TabControl_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (e.Source is TabControl && (e.Source as TabControl).SelectedIndex == 0)
+            {
+                 ObservableCollection<Product> Products = new ObservableCollection<Product>(Configuration.GlobalProducts);
+                foreach (var product in Products)
+                {
+                    if (!vm.Products.Contains(product))
+                    {
+                        vm.Products.Add(product);
+                    }
+                }
+            }
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BE;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,15 +21,40 @@ namespace PL
     /// </summary>
     public partial class NewUser_UserControl : UserControl
     {
-        NewUserVM newUserVM;
+        VM vm;
         public NewUser_UserControl()
         {
-            newUserVM = new NewUserVM(MainWindow.viewModel);
+            vm = MainWindow.vm;
             InitializeComponent();
-            newUserVM.HarvestPassword += (sender, args) =>
+            vm.HarvestPassword += (sender, args) =>
             args.Password = insertPassword.Password;
-            DataContext = newUserVM;
+            DataContext = vm;
+        }
+        private void start_IsVisibleChanged(object sender, DependencyPropertyChangedEventArgs e)
+        {
+            insertName.Text = "";
+            insertPassword.Password = "";
+        }
 
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                var pwargs = new HarvestPasswordEventArgs();
+               
+                if (!char.IsLetter(insertName.Text.FirstOrDefault()))
+                    MessageBox.Show("Name should start with letter");
+                else
+                {
+                    vm.SelectedUser = vm.IBL.AddUser(new User(insertName.Text, insertPassword.Password));
+                    vm.StateMachine.Fire(PL.Triggers.AddNewUserSucceeded);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+                vm.StateMachine.Fire((PL.Triggers.AddNewUserFailed));
+            }
         }
     }
 }

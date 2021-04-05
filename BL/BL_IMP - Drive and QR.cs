@@ -19,19 +19,58 @@ using BE;
 using DAL;
 using System.Windows.Forms;
 using System.Drawing.Imaging;
+using PdfSharp.Pdf;
+using PdfSharp.Drawing;
+using PdfSharp.Drawing.Layout;
 
 namespace BL
 {
     public partial class BL_IMP
     {
-
         //static string[] Scopes = { DriveService.Scope.Drive };
         //static string ApplicationName = "does it matter";
 
-        static string  fpath = @"C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\BL\Drive Photos";
+        static string  fpath = @"C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\BL\Drive Photos";
+        static string pdfPath = @"C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\Pdfs\";
+        public void SaveToPdf(List<Product> products,DateTime date)
+        {
+            string str = "Recommanded product list for date " + date.ToString("M:d:yyyy hh:mm tt")+"\n\n\n";
+            foreach (var product in products)
+            {
+                str += product.ToString()+ "\n\n";
+            }
+            PdfDocument pdf = new PdfDocument();
+            string pdfName = " " + date.ToString("M-d-yyyy hh-mm tt") + " recommanded product list";
+            pdf.Info.Title = pdfName;
+            PdfPage pdfPage = pdf.AddPage();
+            XGraphics graph = XGraphics.FromPdfPage(pdfPage);
+            var formatter = new XTextFormatter(graph);
+            XFont font = new XFont("Verdana", 25, XFontStyle.Bold);
+            //graph.DrawString(str, font, XBrushes.Black,
+            //    new XRect(0, 0, pdfPage.Width.Point, pdfPage.Height.Point), XStringFormats.Center);
+            var layoutRectangle = new XRect(10, 10, pdfPage.Width, pdfPage.Height);
+           // formatter.DrawString("Recommanded product list for date\n\n"+ date.ToString("M - d - yyyy hh - mm tt")
+            //    , font, XBrushes.Black, layoutRectangle, XStringFormats.TopLeft);
+             font = new XFont("Verdana", 10, XFontStyle.Bold);            
+            formatter.DrawString(str, font, XBrushes.Black, layoutRectangle, XStringFormats.TopLeft);
+
+            string pdfFilename = pdfPath+ pdfName + ".pdf";
+            pdf.Save(pdfFilename);
+            
+        }
+        public  List<int> LoadProducts()
+        {
+            List<int> productsId=new List<int>();
+            List<string> productsQRCodes = DownloadPhotosFromDrive();
+            foreach (var QRCodeAdress in productsQRCodes)
+            {
+                    productsId.Add(GetProductId(QRCodeAdress)); 
+            }
+            return productsId;
+        }
         public static int GetProductId(string QRCodeAdress)
         {
-            int resultId = -1;
+            int resultId;
             try
             {
                 BarcodeReader<Bitmap> reader = new BarcodeReader
@@ -53,7 +92,7 @@ namespace BL
             }
             catch (NoQRExceptoin e)
             {
-                throw e;
+                 resultId=-1;
             }
             catch (Exception e)
             {
@@ -97,7 +136,7 @@ namespace BL
                 ApplicationName = "",
             });
             string projectFileId = FindTheProjectFileID(service);
-            return PhotosDealer(service, projectFileId);
+            return GetPhotos(service, projectFileId);
         }
         static string FindTheProjectFileID(DriveService service)
         {
@@ -113,7 +152,7 @@ namespace BL
             else
                 return null;
         }
-        static List<string> PhotosDealer(DriveService service, string fileId)
+        static List<string> GetPhotos(DriveService service, string fileId)
         {
             List<string> photosAdresses = new List<string>();
             FilesResource.ListRequest photoRequest = service.Files.List();

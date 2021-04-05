@@ -66,3 +66,40 @@ D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\PLTes
 D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\PLTesting\obj\Debug\PLTesting.csproj.CopyComplete
 D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\PLTesting\obj\Debug\PLTesting.exe
 D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\PLTesting\obj\Debug\PLTesting.pdb
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\PLTesting\bin\Debug\credentials.json
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\PLTesting\bin\Debug\credentialsDrive.json
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\PLTesting\bin\Debug\PLTesting.exe.config
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\PLTesting\bin\Debug\PLTesting.exe
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\PLTesting\bin\Debug\PLTesting.pdb
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\PLTesting\bin\Debug\BE.dll
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\PLTesting\bin\Debug\BL.dll
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\PLTesting\bin\Debug\DAL.dll
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\PLTesting\bin\Debug\zxing.dll
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\PLTesting\bin\Debug\Google.Apis.Auth.dll
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\PLTesting\bin\Debug\Google.Apis.Drive.v3.dll
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\PLTesting\bin\Debug\Google.Apis.dll
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\PLTesting\bin\Debug\Google.Apis.Core.dll
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\PLTesting\bin\Debug\Newtonsoft.Json.dll
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\PLTesting\bin\Debug\BE.pdb
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\PLTesting\bin\Debug\BL.pdb
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\PLTesting\bin\Debug\BL.dll.config
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\PLTesting\bin\Debug\DAL.pdb
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\PLTesting\bin\Debug\DAL.dll.config
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\PLTesting\bin\Debug\zxing.xml
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\PLTesting\bin\Debug\Google.Apis.Auth.pdb
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\PLTesting\bin\Debug\Google.Apis.Auth.xml
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\PLTesting\bin\Debug\Google.Apis.Drive.v3.pdb
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\PLTesting\bin\Debug\Google.Apis.Drive.v3.xml
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\PLTesting\bin\Debug\Google.Apis.pdb
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\PLTesting\bin\Debug\Google.Apis.xml
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\PLTesting\bin\Debug\Google.Apis.Core.pdb
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\PLTesting\bin\Debug\Google.Apis.Core.xml
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\PLTesting\bin\Debug\Newtonsoft.Json.xml
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\PLTesting\obj\Debug\PLTesting.csprojAssemblyReference.cache
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\PLTesting\obj\Debug\PLTesting.csproj.CoreCompileInputs.cache
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\PLTesting\obj\Debug\PLTesting.csproj.CopyComplete
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\PLTesting\obj\Debug\PLTesting.exe
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\PLTesting\obj\Debug\PLTesting.pdb
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\PLTesting\bin\Debug\PdfSharp.dll
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\PLTesting\bin\Debug\PdfSharp.xml
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\PLTesting\bin\Debug\de\PdfSharp.resources.dll

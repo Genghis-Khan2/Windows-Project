@@ -40,3 +40,29 @@ C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Window
 C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\DAL\bin\Debug\Newtonsoft.Json.xml
 D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\DAL\bin\Debug\Newtonsoft.Json.dll
 D:\קורסים\יג\סמסטר א\הנדסת חלונות\Windows-Project\DAL\bin\Debug\Newtonsoft.Json.xml
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\DAL\bin\Debug\credentials.json
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\DAL\bin\Debug\DAL.dll.config
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\DAL\bin\Debug\DAL.dll
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\DAL\bin\Debug\DAL.pdb
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\DAL\bin\Debug\BE.dll
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\DAL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\DAL\bin\Debug\BE.pdb
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\DAL\bin\Debug\Newtonsoft.Json.xml
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\DAL\obj\Debug\DAL.dll
+C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\DAL\obj\Debug\DAL.pdb
+C:\Users\eitha\Documents\מכון לב\sem a\הנדסת מערכת חלונים\WindowsProject\DAL\bin\Debug\credentials.json
+C:\Users\eitha\Documents\מכון לב\sem a\הנדסת מערכת חלונים\WindowsProject\DAL\bin\Debug\DAL.dll.config
+C:\Users\eitha\Documents\מכון לב\sem a\הנדסת מערכת חלונים\WindowsProject\DAL\bin\Debug\DAL.dll
+C:\Users\eitha\Documents\מכון לב\sem a\הנדסת מערכת חלונים\WindowsProject\DAL\bin\Debug\DAL.pdb
+C:\Users\eitha\Documents\מכון לב\sem a\הנדסת מערכת חלונים\WindowsProject\DAL\bin\Debug\BE.dll
+C:\Users\eitha\Documents\מכון לב\sem a\הנדסת מערכת חלונים\WindowsProject\DAL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\eitha\Documents\מכון לב\sem a\הנדסת מערכת חלונים\WindowsProject\DAL\bin\Debug\BE.pdb
+C:\Users\eitha\Documents\מכון לב\sem a\הנדסת מערכת חלונים\WindowsProject\DAL\bin\Debug\Newtonsoft.Json.xml
+C:\Users\eitha\Documents\מכון לב\sem a\הנדסת מערכת חלונים\WindowsProject\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\eitha\Documents\מכון לב\sem a\הנדסת מערכת חלונים\WindowsProject\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\eitha\Documents\מכון לב\sem a\הנדסת מערכת חלונים\WindowsProject\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\eitha\Documents\מכון לב\sem a\הנדסת מערכת חלונים\WindowsProject\DAL\obj\Debug\DAL.dll
+C:\Users\eitha\Documents\מכון לב\sem a\הנדסת מערכת חלונים\WindowsProject\DAL\obj\Debug\DAL.pdb

@@ -1,5 +1,7 @@
-﻿using System;
+﻿using BE;
+using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,13 +22,13 @@ namespace PL
     /// </summary>
     public partial class RegularUser_UserControl : UserControl
     {
-        RegularUserVM regularUserVM;
+        VM vm;
         public RegularUser_UserControl()
         {
-            regularUserVM = new RegularUserVM(MainWindow.viewModel);
+            vm = MainWindow.vm;
             InitializeComponent();           
-            DataContext = regularUserVM;
-
+            DataContext = vm;
         }
+        
     }
 }

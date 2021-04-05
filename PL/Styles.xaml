@@ -4,7 +4,7 @@
                     xmlns:System="clr-namespace:System;assembly=mscorlib"
                     >
 
-    <Style  TargetType="Label">
+    <Style x:Name="LabelStyle" TargetType="Label">
         <Setter Property="FontFamily" Value="Ariel"/>
         <Setter Property="FontSize" Value="30"/>
         <Setter Property="Grid.Column" Value="0"/>
@@ -14,7 +14,12 @@
         <Setter Property="Height" Value="200"/>-->
     </Style>
 
-    
+    <Style x:Key="Button" TargetType="Button">
+        <Setter Property="Margin" Value="60"/>
+        <Setter Property="FontSize" Value="45"/>
+        <Setter Property="FontStyle" Value="Italic"/>
+        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+    </Style>
 
     <Style x:Key="Header" TargetType="TextBlock">
         <Setter Property="Margin" Value="10"/>

@@ -16,7 +16,7 @@
     </Window.Resources>
 
     <Grid >
-        <Grid x:Name="start" Grid.Row="3" Grid.Column="2"
+        <Grid x:Name="start"  IsVisibleChanged="start_IsVisibleChanged"
           Visibility="{Binding StateMachine.State, 
                               Converter={StaticResource StateMachineConverter}, 
                               ConverterParameter=Start}" >
@@ -29,7 +29,7 @@
             <Grid.Background>
                 <SolidColorBrush Color="Yellow" Opacity="0.7" />
             </Grid.Background>
-            <TextBlock Text="Welcome to the Marcating system"  Style="{DynamicResource Header}"/>
+            <TextBlock Text="Welcome to the Marketing system"  Style="{DynamicResource Header}"/>
             <Label x:Name="Name" Content="User name:" Grid.Row="1" Margin="474,150.333,640.333,133" Height="Auto"  />
             <TextBox x:Name="insertName" HorizontalAlignment="Left" Grid.Row="1" FontSize="20"
                  Margin="664,146.333,0,0" TextWrapping="Wrap" Text="{Binding Name}" VerticalAlignment="Top" Width="120" Height="39"/>
@@ -39,7 +39,7 @@
             <Button x:Name="enterUserButton" Content="Enter as user" Grid.Row="2"
                   Width="150" Command="{Binding UserEntryCommand}" Margin="574,79,565.333,55.667" />
             <Button x:Name="enterManagerButton" Content="Enter as manager"  Grid.Row="2"
-                  Width="150" Command="{Binding ManagerEntryCommand}" Margin="898,81,241.333,53.667" />
+                  Width="150" Command="{Binding ManagerEntryCommand}" Margin="898,79,241.333,55.667" />
             <Button x:Name="newUserButton" Content="Create new user"  Grid.Row="2"
                   Width="150" Command="{Binding CreateNewUserCommand}" Margin="294,79,845.333,55.667" />
         </Grid>

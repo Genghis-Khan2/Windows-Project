@@ -18,7 +18,11 @@ namespace BE
         public List<int> ProductsIds { get => productsIds; set => productsIds = value; }
         public DateTime Date { get => date; set => date = value; }
 
-        public Order(List<int> productsIds, DateTime date)
+        public Order()
+        {
+           
+        }
+        public Order(List<int> productsIds , DateTime date)
         {
             ProductsIds = productsIds;
             Date = date;

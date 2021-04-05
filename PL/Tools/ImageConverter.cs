@@ -13,7 +13,7 @@ namespace PL
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
             if (value == null)
-                return @"C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\Photos\NotExist.PNG";
+                return @"C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\Photos\NoImage.PNG";
             return value;
         }
 

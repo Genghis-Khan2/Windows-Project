@@ -9,18 +9,18 @@ namespace BE
 {
     public enum Category
     {
-        Food,Clothes,Comm,Weapons
+        Food,Clothes,Electrics,Weapons
     }
     public class Product
     {
-        string name;
-        double price;
-        double weight;
-        string description;
-        int id= Configuration.ProductSerialKey;
+        string name = "";
+        double price = 0;
+        double weight = 0;
+        string description = "";
+        int id= Configuration.THIS_KEY_DID_NOT_INITALIZED_YET;
         Category cat;
-        string image_path = null;
-        string qr_code_path = null;
+        string image_path = "";
+        string qr_code_path = "";
         bool available = true;
         public int Id { get => id; set => id = value; }
         public string Name { get => name; set => name = value; }
@@ -41,6 +41,21 @@ namespace BE
         {
             return obj is Product product &&                   
                    Id == product.Id;
+        }
+
+        public override string ToString()
+        {
+            string name = "Product name: " + Name;
+            string price = " , price: " + Price;
+            string weight = " , weight: " + Weight;
+            string category = " , from category: " + Cat.ToString();
+            string description = " , product description: " + Description+".\n";
+            string isAvailable="";
+            if (available)
+                isAvailable = "The product is currently available in the store";
+            else
+                isAvailable = "The product is currently not available";
+            return name+price+weight+category+description+isAvailable;
         }
     }
 }

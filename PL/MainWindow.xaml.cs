@@ -21,15 +21,19 @@ namespace PL
     /// </summary>
     public partial class MainWindow : Window
     {
-        public static ViewModel viewModel = new ViewModel();
+        public static VM vm = new VM();
         public MainWindow()
         {
             InitializeComponent();
-            viewModel.HarvestPassword += (sender, args) =>
+            vm.HarvestPassword += (sender, args) =>
             args.Password = insertPassword.Password;
-            DataContext = viewModel;
+            DataContext = vm;
         }
 
-              
+        private void start_IsVisibleChanged(object sender, DependencyPropertyChangedEventArgs e)
+        {
+            insertName.Text = "";
+            insertPassword.Password = "";
+        }
     }
 }

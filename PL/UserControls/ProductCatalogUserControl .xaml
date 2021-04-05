@@ -15,7 +15,7 @@
             <Button Content="Update the stock" VerticalAlignment="Center" Width="auto"/>
         </Grid>-->
         <ScrollBar x:Name="scrollBar" Width="10" Height="auto"  DockPanel.Dock="Right"/>
-        <ListView x:Name="listView"  ItemsSource="{Binding Path=Products}">
+        <ListView x:Name="listView" ItemsSource="{Binding Path=Products}" >
             <ListView.View >
                 <GridView >
                     <GridViewColumn Header="Name" Width="auto" DisplayMemberBinding="{Binding Name}" />

@@ -5,29 +5,27 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:PL"
              mc:Ignorable="d">
-    <Grid Grid.Row="2" Grid.Column="2">
+    <Grid Grid.Row="2" Grid.Column="2" IsVisibleChanged="start_IsVisibleChanged" >
         <Grid.RowDefinitions>
-            <RowDefinition Height="200"/>
-            <RowDefinition />
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         <Grid.Background>
-            <SolidColorBrush Color="Green" Opacity="0.7" />
+            <SolidColorBrush Color="Yellow" Opacity="0.7" />
         </Grid.Background>
-        <TextBlock x:Name="Welcome" HorizontalAlignment="Center"  Grid.Row="0"
-                   TextWrapping="Wrap"  FontSize="35" Text="Add new user" TextAlignment="Center"
-                   VerticalAlignment="Bottom" Width="600" Height="80">
-        </TextBlock>
-        <Label x:Name="Name" Content="User name" HorizontalAlignment="Left"
-               Margin="419,79,0,0" Grid.Row="1" VerticalAlignment="Top"/>
-        <TextBox x:Name="insertName" HorizontalAlignment="Left" Height="auto" Grid.Row="1"
-                 Margin="410,115,0,0" TextWrapping="Wrap" Text="{Binding Name}" VerticalAlignment="Top" Width="120"/>
-        <Label x:Name="Password" Content="Password" HorizontalAlignment="center"
-               Margin="404,206,818.333,0" Grid.Row="1" VerticalAlignment="Top"/>
-        <PasswordBox x:Name="insertPassword" HorizontalAlignment="Left" Height="auto" Grid.Row="1"
-                 Margin="394,241,0,0" Password="" VerticalAlignment="Top" Width="120"/>
-        <Button Content="Back" Command="{Binding NewUserBackCommand}"
-                Width="auto" Height="auto" Margin="652,347,541.667,73.667" Grid.Row="1"/>
-        <Button Content="Add new user" Command="{Binding AddNewUserCommand}"
-                Width="auto" Height="auto" Margin="422,301,748.667,54.667" Grid.Row="1"/>
+        <TextBlock Text="Add new user"  Style="{DynamicResource Header}"/>
+        <Label x:Name="Name" Content="User name:" Grid.Row="1" Margin="474,150.333,640.333,133" Height="Auto"  />
+        <TextBox x:Name="insertName" HorizontalAlignment="Left" Grid.Row="1" FontSize="20"
+                 Margin="664,146.333,0,0" TextWrapping="Wrap" Text="{Binding Name}" VerticalAlignment="Top" Width="120" Height="39"/>
+        <Label x:Name="Password" Content="Password:" Grid.Row="1"  Margin="482,226.333,656.333,51" Height="Auto"  />
+        <PasswordBox x:Name="insertPassword" HorizontalAlignment="Left" Height="39" Grid.Row="1"
+                 Margin="664,231.333,0,0" Password="" VerticalAlignment="Top" Width="120" FontSize="20"/>
+        <Button  Content="Back" Grid.Row="2" Height="40" Margin="750,50,375,50"
+                  Width="150" Command="{Binding NewUserBackCommand}"   />
+        <Button  Content="Add new user"  Grid.Row="2" Height="40" Margin="375,50,750,50"
+                  Width="150" Command="{Binding AddNewUserCommand}" Click="Button_Click"   />
+
+
     </Grid>
 </UserControl>

@@ -47,7 +47,7 @@ namespace BL
             friends.Remove(product);
             return friends;
         }
-        private static List<int[]> GetProductsIdSets(List<Order> orders)
+        private  List<int[]> GetProductsIdSets(List<Order> orders)
         {
             List<int[]> productsIdSets = new List<int[]>();
             // add the orders products sets
@@ -63,7 +63,7 @@ namespace BL
             }
             return productsIdSets;
         }
-        private static List<int[]> GetFrequentItemSets(int N, List<int[]> transactions, double minSupportPct,
+        private List<int[]> GetFrequentItemSets(int N, List<int[]> transactions, double minSupportPct,
           int minItemSetLength, int maxItemSetLength)
         {
             // create a List of frequent ItemSet objects that are in transactions
@@ -84,7 +84,7 @@ namespace BL
                 for (int j = 0; j < transactions[i].Length; ++j)
                 {
                     int v = transactions[i][j];
-                    ++counts[v];
+                    ++counts[v-1001];
                 }
             }
             // for those items that meet support threshold, add to valid list, frequent list, frequent dict
@@ -92,9 +92,9 @@ namespace BL
             {
                 if (counts[i] >= minSupportCount) // frequent item
                 {
-                    validItems.Add(i); // i is the item/value
+                    validItems.Add(i+1001); // i is the item/value
                     int[] d = new int[1]; // the ItemSet ctor wants an array
-                    d[0] = i;
+                    d[0] = i+1001;
                     ItemSet ci = new ItemSet(N, d, 1); // an ItemSet with size 1, ct 1
                     frequentList.Add(ci); // it's frequent
                     frequentDict.Add(ci.hashValue, true); // 

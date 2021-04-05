@@ -64,6 +64,12 @@
     <Reference Include="Google.Apis.PlatformServices, Version=1.50.0.0, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab, processorArchitecture=MSIL">
       <HintPath>..\packages\Google.Apis.1.50.0\lib\net45\Google.Apis.PlatformServices.dll</HintPath>
     </Reference>
+    <Reference Include="LiveCharts, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiveCharts.0.9.7\lib\net45\LiveCharts.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts.Wpf, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiveCharts.Wpf.0.9.7\lib\net45\LiveCharts.Wpf.dll</HintPath>
+    </Reference>
     <Reference Include="MaterialDesignColors, Version=2.0.0.2422, Culture=neutral, PublicKeyToken=df2a72020bd7962a, processorArchitecture=MSIL">
       <HintPath>..\packages\MaterialDesignColors.2.0.0\lib\net452\MaterialDesignColors.dll</HintPath>
     </Reference>
@@ -72,6 +78,12 @@
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="PdfSharp, Version=1.50.5147.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\PDFsharp.1.50.5147\lib\net20\PdfSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="PdfSharp.Charting, Version=1.50.5147.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\PDFsharp.1.50.5147\lib\net20\PdfSharp.Charting.dll</HintPath>
     </Reference>
     <Reference Include="Stateless, Version=2.4.0.1, Culture=neutral, PublicKeyToken=93038f0927583c9a, processorArchitecture=MSIL">
       <HintPath>..\packages\Stateless.2.4.0\lib\Stateless.dll</HintPath>
@@ -99,17 +111,33 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="AddProductUserControl.xaml.cs">
+    <Compile Include="UserControls\UChartsUserControl.xaml.cs">
+      <DependentUpon>UChartsUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ProductFriendsUserControl.xaml.cs">
+      <DependentUpon>ProductFriendsUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\RecommendedListUserControl.xaml.cs">
+      <DependentUpon>RecommendedListUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\AddNewOrder.xaml.cs">
+      <DependentUpon>AddNewOrder.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\OrdersListUserControl.xaml.cs">
+      <DependentUpon>OrdersListUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\AddProductUserControl.xaml.cs">
       <DependentUpon>AddProductUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\MChartsUserControl.xaml.cs">
+      <DependentUpon>MChartsUserControl.xaml</DependentUpon>
     </Compile>
     <Compile Include="Commands\RemoveCommand .cs" />
     <Compile Include="Commands\AddCommand.cs" />
+    <Compile Include="Tools\Checks.cs" />
     <Compile Include="Tools\ImageConverter.cs" />
     <Compile Include="UserControls\ProductCatalogUserControl .xaml.cs">
       <DependentUpon>ProductCatalogUserControl .xaml</DependentUpon>
-    </Compile>
-    <Compile Include="UserControls\AddOrderUserControl.xaml.cs">
-      <DependentUpon>AddOrderUserControl.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\Manager_UserControl.xaml.cs">
       <DependentUpon>Manager_UserControl.xaml</DependentUpon>
@@ -117,28 +145,48 @@
     <Compile Include="Views\RegularUser_UserControl.xaml.cs">
       <DependentUpon>RegularUser_UserControl.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ViewModels\RegularUserVM.cs" />
-    <Compile Include="ViewModels\ManagerVM.cs" />
+    <Compile Include="ViewModels\VM- Regular User.cs" />
+    <Compile Include="ViewModels\VM- Manager.cs" />
     <Compile Include="Tools\BindableObject.cs" />
     <Compile Include="Tools\HarvestPasswordEventArgs.cs" />
     <Compile Include="Tools\RelayCommand.cs" />
     <Compile Include="Tools\StateMachine.cs" />
-    <Compile Include="ViewModels\NewUserVM.cs" />
-    <Compile Include="ViewModels\ViewModel.cs" />
+    <Compile Include="ViewModels\VM- New User.cs" />
+    <Compile Include="ViewModels\VM- Main.cs" />
     <Compile Include="Views\NewUser_UserControl.xaml.cs">
       <DependentUpon>NewUser_UserControl.xaml</DependentUpon>
     </Compile>
-    <Page Include="AddProductUserControl.xaml">
+    <Page Include="UserControls\UChartsUserControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\ProductFriendsUserControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\RecommendedListUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\AddNewOrder.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\OrdersListUserControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\AddProductUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\MChartsUserControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="UserControls\ProductCatalogUserControl .xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </Page>
-    <Page Include="UserControls\AddOrderUserControl.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\Manager_UserControl.xaml">
       <Generator>MSBuild:Compile</Generator>

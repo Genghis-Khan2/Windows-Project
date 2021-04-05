@@ -10,7 +10,7 @@ using Stateless;
 using System.Windows;
 using System.Windows.Data;
 using System.Globalization;
-
+using BE;
 namespace PL
 {
    
@@ -28,7 +28,7 @@ namespace PL
     {
         public event PropertyChangedEventHandler PropertyChanged;
 
-        public StateMachine(Action action=null) : base(States.Start)
+        public StateMachine(Action Maction, Action Uaction) : base(States.Start)
         {
             Configure(States.Start)
               .Permit(Triggers.CreateNewUser, States.NewUser)
@@ -38,9 +38,11 @@ namespace PL
               .PermitReentry(Triggers.UserEntryFailed);
 
             Configure(States.User)
+                .OnEntry(Uaction)
               .Permit(Triggers.Disconnect, States.Start);
 
             Configure(States.Manager)
+                .OnEntry(Maction)
                .Permit(Triggers.Disconnect, States.Start);
 
             Configure(States.NewUser)
@@ -64,6 +66,7 @@ namespace PL
                 PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
             }
         }
+       
 
     }
     public static class StateMachineExtensions

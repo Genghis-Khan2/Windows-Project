@@ -17,8 +17,8 @@ namespace BE
         private static List<Product> globalProducts = new List<Product>();
 
         public const int THIS_KEY_DID_NOT_INITALIZED_YET = 1000;//the Initial value of the serial keys
-        public const string Photos_file_path = @"C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\Photos";
-        public const string QRCode_file_path = @"C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\QR Codes";
+        public const string Photos_file_path = @"C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\Photos";
+        public const string QRCode_file_path = @"C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\QR Codes";
         public static int ProductSerialKey { get => productSerialKey; set => productSerialKey = value; }
         public static int UserSerialKey { get => userSerialKey; set => userSerialKey = value; }
         public static int OrderSerialKey { get => orderSerialKey; set => orderSerialKey = value; }

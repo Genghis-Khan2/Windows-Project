@@ -1,0 +1,64 @@
+﻿<UserControl x:Class="PL.RecommendedListUserControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PL"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.Resources>
+        <local:ImageConverter x:Key="ImageConverter" />
+    </UserControl.Resources>
+    <DockPanel LastChildFill="True" >
+        <Grid DockPanel.Dock="Top">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="Bton" Content="Show the reccomand list" VerticalAlignment="Center" Width="auto" Click="Bton_Click" Margin="20,0,0,0" />
+            <ComboBox Name="Cbox" Grid.Column="1" IsEditable="True" Text="Choose day of the week" HorizontalAlignment="Center" />
+        </Grid>
+        <Grid DockPanel.Dock="Bottom">
+            <Button x:Name="pdfBton" Content="Download the reccomand list" VerticalAlignment="Center" Width="auto" Click="pdfBton_Click" />
+        </Grid>
+        <ScrollBar x:Name="scrollBar" Width="10" Height="auto"  DockPanel.Dock="Right"/>
+        <ListView x:Name="listView" >
+            <ListView.View >
+                <GridView >
+                    <GridViewColumn Header="Name" Width="auto" DisplayMemberBinding="{Binding Name}" />
+                    <GridViewColumn Header="Price" Width="auto" DisplayMemberBinding="{Binding Price}" />
+                    <GridViewColumn Header="Weight" Width="auto" DisplayMemberBinding="{Binding Weight}" />
+                    <GridViewColumn Header="Category" Width="auto" DisplayMemberBinding="{Binding Cat}" />
+                    <GridViewColumn Header="Description" Width="auto" DisplayMemberBinding="{Binding Description}" />
+                    <!--<GridViewColumn Header="Id" Width="auto">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Id}" TextDecorations="Underline" Foreground="Blue" Cursor="Hand" />
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>-->
+                    <GridViewColumn Header="Image" Width="auto" >
+                        <GridViewColumn.CellTemplate >
+                            <DataTemplate >
+                                <Image>
+                                    <Image.Source>
+                                        <BitmapImage DecodePixelWidth="100" 
+                                                     UriSource="{Binding Image_path, Converter={StaticResource ImageConverter}}" />
+                                    </Image.Source>
+                                </Image>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                    <GridViewColumn Header="Available" Width="auto" >
+                        <GridViewColumn.CellTemplate >
+                            <DataTemplate >
+                                <CheckBox x:Name="CheckBox" IsEnabled="False" IsChecked="{Binding Available,Mode=TwoWay}"  Opacity="10"
+                                          ToolTip="Select to enable or disable the product in the store"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </DockPanel>
+</UserControl>

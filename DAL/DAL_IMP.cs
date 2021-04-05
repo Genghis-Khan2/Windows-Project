@@ -13,9 +13,9 @@ namespace DAL
     public class DAL_IMP
     {
 
-        static readonly string users_path = @"C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\Users.txt";       
-        static readonly string products_path = @"C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\Products.txt";
-        static readonly string configs_path = @"C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\Windows-Project\Configs.txt";
+        static readonly string users_path = @"C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\Users.txt";       
+        static readonly string products_path = @"C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\Products.txt";
+        static readonly string configs_path = @"C:\Users\eitha\Documents\מכון לב\הנדסת מערכת חלונים\WindowsProject\Configs.txt";
         //static readonly string users_path = @"..\..\.\..\..\..\..\Users";
         //static readonly string users_path = @".\Users";
         private static List<User> users;

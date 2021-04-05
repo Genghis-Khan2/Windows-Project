@@ -1,46 +1,57 @@
 [
   {
-    "Id": 1006,
+    "Id": 1001,
     "Name": "Banana",
     "Price": 0.5,
     "Weight": 1.0,
     "Cat": 0,
     "Description": "fruit",
-    "Image_path": "C:\\Users\\eitha\\Documents\\מכון לב\\הנדסת מערכת חלונים\\Windows-Project\\Photos\\Banana.JPG",
-    "Qr_code_path": "C:\\Users\\eitha\\Documents\\מכון לב\\הנדסת מערכת חלונים\\Windows-Project\\QR Codes\\QR product 1006.jpeg",
-    "Available": false
+    "Image_path": "Banana",
+    "Qr_code_path": "C:\\Users\\eitha\\Documents\\מכון לב\\הנדסת מערכת חלונים\\WindowsProject\\QR Codes\\QR product 1001.jpeg",
+    "Available": true
   },
   {
-    "Id": 1007,
-    "Name": "Apple",
-    "Price": 0.9,
-    "Weight": 1.0,
-    "Cat": 0,
-    "Description": "fruit",
-    "Image_path": "C:\\Users\\eitha\\Documents\\מכון לב\\הנדסת מערכת חלונים\\Windows-Project\\Photos\\Apple.JPG",
-    "Qr_code_path": "C:\\Users\\eitha\\Documents\\מכון לב\\הנדסת מערכת חלונים\\Windows-Project\\QR Codes\\QR product 1007.jpeg",
-    "Available": false
-  },
-  {
-    "Id": 1008,
+    "Id": 1002,
     "Name": "Meat",
-    "Price": 10.0,
-    "Weight": 1.0,
+    "Price": 1.0,
+    "Weight": 0.9,
     "Cat": 0,
-    "Description": "Non vegeterian",
-    "Image_path": null,
-    "Qr_code_path": "C:\\Users\\eitha\\Documents\\מכון לב\\הנדסת מערכת חלונים\\Windows-Project\\QR Codes\\QR product 1008.jpeg",
-    "Available": false
+    "Description": "not for vegeterians",
+    "Image_path": "Meat",
+    "Qr_code_path": "C:\\Users\\eitha\\Documents\\מכון לב\\הנדסת מערכת חלונים\\WindowsProject\\QR Codes\\QR product 1002.jpeg",
+    "Available": true
   },
   {
-    "Id": 1009,
-    "Name": "orange",
-    "Price": 0.7,
+    "Id": 1003,
+    "Name": "Apple",
+    "Price": 2.0,
     "Weight": 1.0,
     "Cat": 0,
     "Description": "fruit",
-    "Image_path": "",
-    "Qr_code_path": "C:\\Users\\eitha\\Documents\\מכון לב\\הנדסת מערכת חלונים\\Windows-Project\\QR Codes\\QR product 1009.jpeg",
-    "Available": false
+    "Image_path": "Apple",
+    "Qr_code_path": "C:\\Users\\eitha\\Documents\\מכון לב\\הנדסת מערכת חלונים\\WindowsProject\\QR Codes\\QR product 1003.jpeg",
+    "Available": true
+  },
+  {
+    "Id": 1004,
+    "Name": "Gun",
+    "Price": 300.0,
+    "Weight": 50.0,
+    "Cat": 3,
+    "Description": "wedg",
+    "Image_path": "Gun",
+    "Qr_code_path": "C:\\Users\\eitha\\Documents\\מכון לב\\הנדסת מערכת חלונים\\WindowsProject\\QR Codes\\QR product 1004.jpeg",
+    "Available": true
+  },
+  {
+    "Id": 1004,
+    "Name": "Gun",
+    "Price": 300.0,
+    "Weight": 50.0,
+    "Cat": 3,
+    "Description": "wedg",
+    "Image_path": "Gun",
+    "Qr_code_path": "C:\\Users\\eitha\\Documents\\מכון לב\\הנדסת מערכת חלונים\\WindowsProject\\QR Codes\\QR product 1004.jpeg",
+    "Available": true
   }
 ]

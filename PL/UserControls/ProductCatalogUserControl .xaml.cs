@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Collections.Specialized;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -21,10 +22,14 @@ namespace PL
     /// </summary>
     /// 
     public partial class ProductCatalogUserControl : UserControl
-    {      
+    {
+        VM vm;
+        public ObservableCollection<Product> Products;
         public ProductCatalogUserControl()
         {
-            InitializeComponent();                   
-        }
+            vm = MainWindow.vm;
+            InitializeComponent();
+            listView.ItemsSource =vm.Products;
+        }       
     }
 }
